@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E467D1B700B51A0A70666923 /* libPods-WYShareAndLive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 334DA67FF46EF25B847C4EA7 /* libPods-WYShareAndLive.a */; };
+		FF2D525F1E9F179400AAD26D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D525E1E9F179400AAD26D /* main.m */; };
+		FF2D52621E9F179400AAD26D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52611E9F179400AAD26D /* AppDelegate.m */; };
+		FF2D526A1E9F179400AAD26D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2D52691E9F179400AAD26D /* Assets.xcassets */; };
+		FF2D526D1E9F179400AAD26D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF2D526B1E9F179400AAD26D /* LaunchScreen.storyboard */; };
+		FF2D52781E9F179400AAD26D /* WYShareAndLiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52771E9F179400AAD26D /* WYShareAndLiveTests.m */; };
+		FF2D52831E9F179400AAD26D /* WYShareAndLiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52821E9F179400AAD26D /* WYShareAndLiveUITests.m */; };
+		FF2D52D11EA4478B00AAD26D /* WYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52D01EA4478B00AAD26D /* WYHomeViewController.m */; };
+		FF2D52D91EA4529200AAD26D /* WYLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52D81EA4529200AAD26D /* WYLiveViewController.m */; };
+		FF2D52DC1EA4529F00AAD26D /* WYVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52DB1EA4529F00AAD26D /* WYVideoViewController.m */; };
+		FF2D52DF1EA4541900AAD26D /* WYNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52DE1EA4541900AAD26D /* WYNewsViewController.m */; };
+		FF2D52E21EA454B100AAD26D /* WYMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52E11EA454B100AAD26D /* WYMineViewController.m */; };
+		FF2D52E81EA4615800AAD26D /* WYTitleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52E71EA4615800AAD26D /* WYTitleBarView.m */; };
+		FF2D52EC1EA4A88A00AAD26D /* WYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52EB1EA4A88A00AAD26D /* WYNavigationController.m */; };
+		FF2D52EF1EA5B3BD00AAD26D /* WYContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52EE1EA5B3BD00AAD26D /* WYContentScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF2D52741E9F179400AAD26D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2D52521E9F179400AAD26D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF2D52591E9F179400AAD26D;
+			remoteInfo = WYShareAndLive;
+		};
+		FF2D527F1E9F179400AAD26D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2D52521E9F179400AAD26D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF2D52591E9F179400AAD26D;
+			remoteInfo = WYShareAndLive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		334DA67FF46EF25B847C4EA7 /* libPods-WYShareAndLive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYShareAndLive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F153033D093FD721521436C9 /* Pods-WYShareAndLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYShareAndLive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYShareAndLive/Pods-WYShareAndLive.debug.xcconfig"; sourceTree = "<group>"; };
+		F38A915D7EFFB071AFEC5A55 /* Pods-WYShareAndLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYShareAndLive.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYShareAndLive/Pods-WYShareAndLive.release.xcconfig"; sourceTree = "<group>"; };
+		FF2D525A1E9F179400AAD26D /* WYShareAndLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYShareAndLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2D525E1E9F179400AAD26D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF2D52601E9F179400AAD26D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF2D52611E9F179400AAD26D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF2D52691E9F179400AAD26D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF2D526C1E9F179400AAD26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF2D526E1E9F179400AAD26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2D52731E9F179400AAD26D /* WYShareAndLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYShareAndLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2D52771E9F179400AAD26D /* WYShareAndLiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYShareAndLiveTests.m; sourceTree = "<group>"; };
+		FF2D52791E9F179400AAD26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2D527E1E9F179400AAD26D /* WYShareAndLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYShareAndLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2D52821E9F179400AAD26D /* WYShareAndLiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYShareAndLiveUITests.m; sourceTree = "<group>"; };
+		FF2D52841E9F179400AAD26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2D52CF1EA4478B00AAD26D /* WYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYHomeViewController.h; sourceTree = "<group>"; };
+		FF2D52D01EA4478B00AAD26D /* WYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYHomeViewController.m; sourceTree = "<group>"; };
+		FF2D52D71EA4529200AAD26D /* WYLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLiveViewController.h; sourceTree = "<group>"; };
+		FF2D52D81EA4529200AAD26D /* WYLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLiveViewController.m; sourceTree = "<group>"; };
+		FF2D52DA1EA4529F00AAD26D /* WYVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYVideoViewController.h; sourceTree = "<group>"; };
+		FF2D52DB1EA4529F00AAD26D /* WYVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYVideoViewController.m; sourceTree = "<group>"; };
+		FF2D52DD1EA4541900AAD26D /* WYNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYNewsViewController.h; sourceTree = "<group>"; };
+		FF2D52DE1EA4541900AAD26D /* WYNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNewsViewController.m; sourceTree = "<group>"; };
+		FF2D52E01EA454B100AAD26D /* WYMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYMineViewController.h; sourceTree = "<group>"; };
+		FF2D52E11EA454B100AAD26D /* WYMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYMineViewController.m; sourceTree = "<group>"; };
+		FF2D52E61EA4615800AAD26D /* WYTitleBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTitleBarView.h; sourceTree = "<group>"; };
+		FF2D52E71EA4615800AAD26D /* WYTitleBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTitleBarView.m; sourceTree = "<group>"; };
+		FF2D52EA1EA4A88A00AAD26D /* WYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYNavigationController.h; sourceTree = "<group>"; };
+		FF2D52EB1EA4A88A00AAD26D /* WYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNavigationController.m; sourceTree = "<group>"; };
+		FF2D52ED1EA5B3BD00AAD26D /* WYContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYContentScrollView.h; sourceTree = "<group>"; };
+		FF2D52EE1EA5B3BD00AAD26D /* WYContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYContentScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF2D52571E9F179400AAD26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E467D1B700B51A0A70666923 /* libPods-WYShareAndLive.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2D52701E9F179400AAD26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2D527B1E9F179400AAD26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520D2C8A6BCAE8F55D851B6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				334DA67FF46EF25B847C4EA7 /* libPods-WYShareAndLive.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DFEF2DB038F43FD5B2EA625 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F153033D093FD721521436C9 /* Pods-WYShareAndLive.debug.xcconfig */,
+				F38A915D7EFFB071AFEC5A55 /* Pods-WYShareAndLive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF2D52511E9F179400AAD26D = {
+			isa = PBXGroup;
+			children = (
+				FF2D52E91EA4A86600AAD26D /* base */,
+				FF2D525C1E9F179400AAD26D /* WYShareAndLive */,
+				FF2D52761E9F179400AAD26D /* WYShareAndLiveTests */,
+				FF2D52811E9F179400AAD26D /* WYShareAndLiveUITests */,
+				FF2D525B1E9F179400AAD26D /* Products */,
+				6DFEF2DB038F43FD5B2EA625 /* Pods */,
+				520D2C8A6BCAE8F55D851B6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF2D525B1E9F179400AAD26D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D525A1E9F179400AAD26D /* WYShareAndLive.app */,
+				FF2D52731E9F179400AAD26D /* WYShareAndLiveTests.xctest */,
+				FF2D527E1E9F179400AAD26D /* WYShareAndLiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF2D525C1E9F179400AAD26D /* WYShareAndLive */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D52D61EA4523D00AAD26D /* Mine */,
+				FF2D52D51EA4522800AAD26D /* News */,
+				FF2D52D41EA44F2A00AAD26D /* Video */,
+				FF2D52D31EA44F1C00AAD26D /* Live */,
+				FF2D52D21EA449F700AAD26D /* Home */,
+				FF2D52601E9F179400AAD26D /* AppDelegate.h */,
+				FF2D52611E9F179400AAD26D /* AppDelegate.m */,
+				FF2D52691E9F179400AAD26D /* Assets.xcassets */,
+				FF2D526B1E9F179400AAD26D /* LaunchScreen.storyboard */,
+				FF2D526E1E9F179400AAD26D /* Info.plist */,
+				FF2D525D1E9F179400AAD26D /* Supporting Files */,
+			);
+			path = WYShareAndLive;
+			sourceTree = "<group>";
+		};
+		FF2D525D1E9F179400AAD26D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D525E1E9F179400AAD26D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF2D52761E9F179400AAD26D /* WYShareAndLiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D52771E9F179400AAD26D /* WYShareAndLiveTests.m */,
+				FF2D52791E9F179400AAD26D /* Info.plist */,
+			);
+			path = WYShareAndLiveTests;
+			sourceTree = "<group>";
+		};
+		FF2D52811E9F179400AAD26D /* WYShareAndLiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D52821E9F179400AAD26D /* WYShareAndLiveUITests.m */,
+				FF2D52841E9F179400AAD26D /* Info.plist */,
+			);
+			path = WYShareAndLiveUITests;
+			sourceTree = "<group>";
+		};
+		FF2D52D21EA449F700AAD26D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D52CF1EA4478B00AAD26D /* WYHomeViewController.h */,
+				FF2D52D01EA4478B00AAD26D /* WYHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		FF2D52D31EA44F1C00AAD26D /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D52D71EA4529200AAD26D /* WYLiveViewController.h */,
+				FF2D52D81EA4529200AAD26D /* WYLiveViewController.m */,
+			);
+			name = Live;
+			sourceTree = "<group>";
+		};
+		FF2D52D41EA44F2A00AAD26D /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D52DA1EA4529F00AAD26D /* WYVideoViewController.h */,
+				FF2D52DB1EA4529F00AAD26D /* WYVideoViewController.m */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		FF2D52D51EA4522800AAD26D /* News */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D52E51EA460CF00AAD26D /* Controller */,
+				FF2D52E41EA460C700AAD26D /* View */,
+				FF2D52E31EA460BD00AAD26D /* Model */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		FF2D52D61EA4523D00AAD26D /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D52E01EA454B100AAD26D /* WYMineViewController.h */,
+				FF2D52E11EA454B100AAD26D /* WYMineViewController.m */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		FF2D52E31EA460BD00AAD26D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FF2D52E41EA460C700AAD26D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D52E61EA4615800AAD26D /* WYTitleBarView.h */,
+				FF2D52E71EA4615800AAD26D /* WYTitleBarView.m */,
+				FF2D52ED1EA5B3BD00AAD26D /* WYContentScrollView.h */,
+				FF2D52EE1EA5B3BD00AAD26D /* WYContentScrollView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FF2D52E51EA460CF00AAD26D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D52DD1EA4541900AAD26D /* WYNewsViewController.h */,
+				FF2D52DE1EA4541900AAD26D /* WYNewsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FF2D52E91EA4A86600AAD26D /* base */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D52EA1EA4A88A00AAD26D /* WYNavigationController.h */,
+				FF2D52EB1EA4A88A00AAD26D /* WYNavigationController.m */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF2D52591E9F179400AAD26D /* WYShareAndLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2D52871E9F179400AAD26D /* Build configuration list for PBXNativeTarget "WYShareAndLive" */;
+			buildPhases = (
+				BF8E9F29DE1E1D615BEA0D94 /* [CP] Check Pods Manifest.lock */,
+				FF2D52561E9F179400AAD26D /* Sources */,
+				FF2D52571E9F179400AAD26D /* Frameworks */,
+				FF2D52581E9F179400AAD26D /* Resources */,
+				183B3DD56E2F767084235240 /* [CP] Embed Pods Frameworks */,
+				3E147E636106A40CB8C0E006 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYShareAndLive;
+			productName = WYShareAndLive;
+			productReference = FF2D525A1E9F179400AAD26D /* WYShareAndLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF2D52721E9F179400AAD26D /* WYShareAndLiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2D528A1E9F179400AAD26D /* Build configuration list for PBXNativeTarget "WYShareAndLiveTests" */;
+			buildPhases = (
+				FF2D526F1E9F179400AAD26D /* Sources */,
+				FF2D52701E9F179400AAD26D /* Frameworks */,
+				FF2D52711E9F179400AAD26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF2D52751E9F179400AAD26D /* PBXTargetDependency */,
+			);
+			name = WYShareAndLiveTests;
+			productName = WYShareAndLiveTests;
+			productReference = FF2D52731E9F179400AAD26D /* WYShareAndLiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF2D527D1E9F179400AAD26D /* WYShareAndLiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2D528D1E9F179400AAD26D /* Build configuration list for PBXNativeTarget "WYShareAndLiveUITests" */;
+			buildPhases = (
+				FF2D527A1E9F179400AAD26D /* Sources */,
+				FF2D527B1E9F179400AAD26D /* Frameworks */,
+				FF2D527C1E9F179400AAD26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF2D52801E9F179400AAD26D /* PBXTargetDependency */,
+			);
+			name = WYShareAndLiveUITests;
+			productName = WYShareAndLiveUITests;
+			productReference = FF2D527E1E9F179400AAD26D /* WYShareAndLiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF2D52521E9F179400AAD26D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "乾坤翰林";
+				TargetAttributes = {
+					FF2D52591E9F179400AAD26D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = A3ATZ66V48;
+						ProvisioningStyle = Automatic;
+					};
+					FF2D52721E9F179400AAD26D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = A3ATZ66V48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF2D52591E9F179400AAD26D;
+					};
+					FF2D527D1E9F179400AAD26D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = A3ATZ66V48;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF2D52591E9F179400AAD26D;
+					};
+				};
+			};
+			buildConfigurationList = FF2D52551E9F179400AAD26D /* Build configuration list for PBXProject "WYShareAndLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF2D52511E9F179400AAD26D;
+			productRefGroup = FF2D525B1E9F179400AAD26D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF2D52591E9F179400AAD26D /* WYShareAndLive */,
+				FF2D52721E9F179400AAD26D /* WYShareAndLiveTests */,
+				FF2D527D1E9F179400AAD26D /* WYShareAndLiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF2D52581E9F179400AAD26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2D526D1E9F179400AAD26D /* LaunchScreen.storyboard in Resources */,
+				FF2D526A1E9F179400AAD26D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2D52711E9F179400AAD26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2D527C1E9F179400AAD26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		183B3DD56E2F767084235240 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYShareAndLive/Pods-WYShareAndLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E147E636106A40CB8C0E006 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYShareAndLive/Pods-WYShareAndLive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF8E9F29DE1E1D615BEA0D94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF2D52561E9F179400AAD26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2D52DC1EA4529F00AAD26D /* WYVideoViewController.m in Sources */,
+				FF2D52EF1EA5B3BD00AAD26D /* WYContentScrollView.m in Sources */,
+				FF2D52621E9F179400AAD26D /* AppDelegate.m in Sources */,
+				FF2D52D11EA4478B00AAD26D /* WYHomeViewController.m in Sources */,
+				FF2D52DF1EA4541900AAD26D /* WYNewsViewController.m in Sources */,
+				FF2D52E21EA454B100AAD26D /* WYMineViewController.m in Sources */,
+				FF2D52E81EA4615800AAD26D /* WYTitleBarView.m in Sources */,
+				FF2D52D91EA4529200AAD26D /* WYLiveViewController.m in Sources */,
+				FF2D525F1E9F179400AAD26D /* main.m in Sources */,
+				FF2D52EC1EA4A88A00AAD26D /* WYNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2D526F1E9F179400AAD26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2D52781E9F179400AAD26D /* WYShareAndLiveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2D527A1E9F179400AAD26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2D52831E9F179400AAD26D /* WYShareAndLiveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF2D52751E9F179400AAD26D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF2D52591E9F179400AAD26D /* WYShareAndLive */;
+			targetProxy = FF2D52741E9F179400AAD26D /* PBXContainerItemProxy */;
+		};
+		FF2D52801E9F179400AAD26D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF2D52591E9F179400AAD26D /* WYShareAndLive */;
+			targetProxy = FF2D527F1E9F179400AAD26D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF2D526B1E9F179400AAD26D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF2D526C1E9F179400AAD26D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF2D52851E9F179400AAD26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF2D52861E9F179400AAD26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF2D52881E9F179400AAD26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F153033D093FD721521436C9 /* Pods-WYShareAndLive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A3ATZ66V48;
+				INFOPLIST_FILE = WYShareAndLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qkhl.WYShareAndLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF2D52891E9F179400AAD26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38A915D7EFFB071AFEC5A55 /* Pods-WYShareAndLive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A3ATZ66V48;
+				INFOPLIST_FILE = WYShareAndLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qkhl.WYShareAndLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF2D528B1E9F179400AAD26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A3ATZ66V48;
+				INFOPLIST_FILE = WYShareAndLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qkhl.WYShareAndLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYShareAndLive.app/WYShareAndLive";
+			};
+			name = Debug;
+		};
+		FF2D528C1E9F179400AAD26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A3ATZ66V48;
+				INFOPLIST_FILE = WYShareAndLiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qkhl.WYShareAndLiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYShareAndLive.app/WYShareAndLive";
+			};
+			name = Release;
+		};
+		FF2D528E1E9F179400AAD26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A3ATZ66V48;
+				INFOPLIST_FILE = WYShareAndLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qkhl.WYShareAndLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WYShareAndLive;
+			};
+			name = Debug;
+		};
+		FF2D528F1E9F179400AAD26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A3ATZ66V48;
+				INFOPLIST_FILE = WYShareAndLiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qkhl.WYShareAndLiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WYShareAndLive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF2D52551E9F179400AAD26D /* Build configuration list for PBXProject "WYShareAndLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2D52851E9F179400AAD26D /* Debug */,
+				FF2D52861E9F179400AAD26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF2D52871E9F179400AAD26D /* Build configuration list for PBXNativeTarget "WYShareAndLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2D52881E9F179400AAD26D /* Debug */,
+				FF2D52891E9F179400AAD26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF2D528A1E9F179400AAD26D /* Build configuration list for PBXNativeTarget "WYShareAndLiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2D528B1E9F179400AAD26D /* Debug */,
+				FF2D528C1E9F179400AAD26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF2D528D1E9F179400AAD26D /* Build configuration list for PBXNativeTarget "WYShareAndLiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2D528E1E9F179400AAD26D /* Debug */,
+				FF2D528F1E9F179400AAD26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF2D52521E9F179400AAD26D /* Project object */;
+}
