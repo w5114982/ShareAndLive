@@ -79,6 +79,20 @@ EOM
       ;;
   esac
 }
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle"
+  install_resource "UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle"
+  install_resource "UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle"
+  install_resource "UMengUShare/UShareSDK/SocialLibraries/Twitter/TwitterKit.framework/Resources/TwitterKitResources.bundle"
+  install_resource "UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle"
+  install_resource "UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle"
+  install_resource "UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle"
+  install_resource "UMengUShare/UShareSDK/SocialLibraries/Twitter/TwitterKit.framework/Resources/TwitterKitResources.bundle"
+  install_resource "UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle"
+fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

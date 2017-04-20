@@ -36,10 +36,7 @@
     WYNewsViewController *newsVC  =[[WYNewsViewController alloc] init];
     //创建我的页面
     WYMineViewController *mineVC = [[WYMineViewController alloc] init];
-    
-    
-    
-    //设置导航栏(1)
+       //设置导航栏(1)
     WYNavigationController *homeNavVC = [[WYNavigationController alloc] init];
     //设置导航栏（2）
     WYNavigationController *liveNavVC = [[WYNavigationController alloc] init];
