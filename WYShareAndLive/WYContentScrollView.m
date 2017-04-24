@@ -16,7 +16,9 @@
     }
     return self;
 }
-
+- (void)contentScrollViewChangeWithBtnTag:(int )Tag{
+    self.contentOffset =  CGPointMake(Tag *UISCREENWIDTH, 0);
+}
 
 /*
 // Only override drawRect: if you perform custom drawing.

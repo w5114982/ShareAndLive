@@ -35,11 +35,10 @@
             [_titleButtons addObject:button];
             [self addSubview:button];
         }];
-        
         // 禁止额外滚动区域
-      
+
         self.directionalLockEnabled =YES;
-        self.contentSize = CGSizeMake(frame.size.width *2, 0);
+        self.contentSize = CGSizeMake(UISCREENWIDTH *2, 0);
        // self.alwaysBounceHorizontal = YES;
         //self.alwaysBounceVertical = NO;
 
@@ -54,7 +53,7 @@
     return self;
 }
 
-- (void)onClick:(UIButton *)button{
+- (void)onClick:(UIButton *)button {
     if (_currentIndex != button.tag) {
         UIButton *preTitle = _titleButtons[_currentIndex];
         [preTitle setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
@@ -66,10 +65,18 @@
         _currentIndex = button.tag;
         NSLog(@"_currentIndex = %ld",(long)_currentIndex);
        _titleButtonClicked(_currentIndex);
+  
+     
       
     }
     
 }
-
+//- (void)changeCurrentButton:(int)currentButton{
+    //_currentIndex = currentButton;
+//}
+//- (void)addClickBlock:(titleButtonClicked)block{
+   // _block =block;
+  
+//}
 
 @end

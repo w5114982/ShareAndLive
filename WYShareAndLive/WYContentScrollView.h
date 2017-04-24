@@ -10,4 +10,5 @@
 
 @interface WYContentScrollView : UIScrollView
 - (instancetype)initWithFrame:(CGRect)frame andTitles:(NSArray *)titles;
+- (void)contentScrollViewChangeWithBtnTag:(int )Tag;
 @end

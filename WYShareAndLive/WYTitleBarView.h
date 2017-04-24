@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+//typedef void(^titleButtonClicked)(UIButton *);
 @interface WYTitleBarView : UIScrollView
 //存储按钮的数组
 @property (nonatomic ,strong)NSMutableArray *titleButtons;
@@ -18,5 +18,7 @@
 //构造函数
 - (instancetype)initWithFrame:(CGRect)frame andTitles:(NSArray *)titles;
 
+//- (void)addClickBlock:(UIButton *)button;
+//- (void)changeCurrentButton:(int)currentButton;
 
 @end
