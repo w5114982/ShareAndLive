@@ -64,7 +64,8 @@
         [button setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
         button.transform = CGAffineTransformMakeScale(1.3, 1.3);
         _currentIndex = button.tag;
-       //_titleButtonClicked(button.tag);
+        NSLog(@"_currentIndex = %ld",(long)_currentIndex);
+       _titleButtonClicked(_currentIndex);
       
     }
     

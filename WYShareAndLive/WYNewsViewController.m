@@ -9,6 +9,8 @@
 #import "WYNewsViewController.h"
 #import "WYTitleBarView.h"
 #import "WYContentScrollView.h"
+#define WYScreenW [UIScreen mainScreen].bounds.size.width
+#define WYScreenH [UIScreen mainScreen].bounds.size.height
 @interface WYNewsViewController ()
 
 @end
@@ -22,6 +24,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     NSArray *array = @[@"军事",@"政治",@"生活",@"情感",@"军事",@"政治",@"生活",@"情感",@"军事",@"政治",@"生活",@"情感",@"军事",@"政治",@"生活",@"情感"];
     WYTitleBarView *titleBar = [[WYTitleBarView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 49) andTitles:array];
+
     [self.view addSubview:titleBar];
     
     WYContentScrollView *contentScrollView = [[WYContentScrollView alloc] initWithFrame:CGRectMake(0,CGRectGetMaxY(titleBar.frame), [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height -Y-45-20) andTitles:array] ;

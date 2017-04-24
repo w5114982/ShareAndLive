@@ -17,4 +17,6 @@
 @property (nonatomic ,copy) void (^titleButtonClicked)(NSUInteger index);
 //构造函数
 - (instancetype)initWithFrame:(CGRect)frame andTitles:(NSArray *)titles;
+
+
 @end

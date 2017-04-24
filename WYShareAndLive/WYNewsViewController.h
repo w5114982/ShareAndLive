@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-
 @interface WYNewsViewController : UIViewController<UIScrollViewDelegate>
 
 @end

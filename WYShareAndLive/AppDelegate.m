@@ -7,12 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "WYHomeViewController.h"
-#import "WYLiveViewController.h"
-#import "WYVideoViewController.h"
-#import "WYNewsViewController.h"
-#import "WYMineViewController.h"
-#import "WYNavigationController.h"
+#import "WYTabBarViewController.h"
 #import <UMSocialCore/UMSocialCore.h>
 @interface AppDelegate ()
 
@@ -24,55 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //初始化视窗
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    //设置根视图界面（主页）
-    WYHomeViewController * homeVC  = [[WYHomeViewController alloc] init];
-//创建直播界面
-    WYLiveViewController *liveVC = [[WYLiveViewController alloc] init];
-    
-    //创建视频播放界面
-    WYVideoViewController * videoVC = [[WYVideoViewController alloc] init];
-    
-    //创建头条界面
-    WYNewsViewController *newsVC  =[[WYNewsViewController alloc] init];
-    //创建我的页面
-    WYMineViewController *mineVC = [[WYMineViewController alloc] init];
-       //设置导航栏(1)
-    WYNavigationController *homeNavVC = [[WYNavigationController alloc] init];
-    //设置导航栏（2）
-    WYNavigationController *liveNavVC = [[WYNavigationController alloc] init];
-    //设置导航栏(3)
-    WYNavigationController *videoNavVC = [[WYNavigationController alloc] init];
-    //设置导航栏（4）
-    WYNavigationController *newsNavVC = [[WYNavigationController alloc] init];
-
-    //设置导航栏(5)
-    WYNavigationController *mineNavVC = [[WYNavigationController alloc] init];
-
-    //分别设置5个导航栏的栈顶VC
-    [homeNavVC pushViewController:homeVC animated:YES];
-    [liveNavVC pushViewController: liveVC animated:YES];
-    [videoNavVC pushViewController:videoVC animated:YES];
-    [newsNavVC  pushViewController:newsVC animated:YES];
-    [mineNavVC pushViewController:mineVC animated:YES];
-    
-    
-
-    
-    
-    //创建tabBar控制器
-    UITabBarController *tabBarVC = [[UITabBarController alloc] init];
-
-    homeNavVC.title = @"主页";
-    liveNavVC.title = @"直播";
-    videoNavVC.title = @"视频";
-    newsNavVC.title = @"头条新闻";
-    mineNavVC.title = @"我的";
-    [tabBarVC addChildViewController:homeNavVC];
-     [tabBarVC addChildViewController:liveNavVC];
-     [tabBarVC addChildViewController:videoNavVC];
-     [tabBarVC addChildViewController:newsNavVC];
-     [tabBarVC addChildViewController:mineNavVC];
-    
+    WYTabBarViewController *tabBarVC = [[WYTabBarViewController alloc] init];
     //设置视窗的根视图为导航控制器
     self.window.rootViewController =tabBarVC;
       //视窗设置为主视窗并且使可见

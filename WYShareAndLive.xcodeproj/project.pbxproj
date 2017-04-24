@@ -22,6 +22,7 @@
 		FF2D52E81EA4615800AAD26D /* WYTitleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52E71EA4615800AAD26D /* WYTitleBarView.m */; };
 		FF2D52EC1EA4A88A00AAD26D /* WYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52EB1EA4A88A00AAD26D /* WYNavigationController.m */; };
 		FF2D52EF1EA5B3BD00AAD26D /* WYContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52EE1EA5B3BD00AAD26D /* WYContentScrollView.m */; };
+		FFF686201EADA2C2002AE032 /* WYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6861F1EADA2C2002AE032 /* WYTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,8 @@
 		FF2D52EB1EA4A88A00AAD26D /* WYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNavigationController.m; sourceTree = "<group>"; };
 		FF2D52ED1EA5B3BD00AAD26D /* WYContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYContentScrollView.h; sourceTree = "<group>"; };
 		FF2D52EE1EA5B3BD00AAD26D /* WYContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYContentScrollView.m; sourceTree = "<group>"; };
+		FFF6861E1EADA2C2002AE032 /* WYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTabBarViewController.h; sourceTree = "<group>"; };
+		FFF6861F1EADA2C2002AE032 /* WYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +267,8 @@
 			children = (
 				FF2D52EA1EA4A88A00AAD26D /* WYNavigationController.h */,
 				FF2D52EB1EA4A88A00AAD26D /* WYNavigationController.m */,
+				FFF6861E1EADA2C2002AE032 /* WYTabBarViewController.h */,
+				FFF6861F1EADA2C2002AE032 /* WYTabBarViewController.m */,
 			);
 			name = base;
 			sourceTree = "<group>";
@@ -458,6 +463,7 @@
 				FF2D52EF1EA5B3BD00AAD26D /* WYContentScrollView.m in Sources */,
 				FF2D52621E9F179400AAD26D /* AppDelegate.m in Sources */,
 				FF2D52D11EA4478B00AAD26D /* WYHomeViewController.m in Sources */,
+				FFF686201EADA2C2002AE032 /* WYTabBarViewController.m in Sources */,
 				FF2D52DF1EA4541900AAD26D /* WYNewsViewController.m in Sources */,
 				FF2D52E21EA454B100AAD26D /* WYMineViewController.m in Sources */,
 				FF2D52E81EA4615800AAD26D /* WYTitleBarView.m in Sources */,
