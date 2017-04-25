@@ -25,7 +25,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     NSArray *array = @[@"军事",@"政治",@"生活",@"情感",@"军事",@"政治",@"生活",@"情感",@"军事",@"政治",@"生活",@"情感",@"军事",@"政治",@"生活",@"情感"];
 self.titleBar = [[WYTitleBarView alloc] initWithFrame:CGRectMake(0, 0, UISCREENWIDTH, 49) andTitles:array];
-    self.titleBar.delegate = self;
+   // self.titleBar.delegate = self;
   //  titleBar ^titleButtonClicked{
     //    NSLog(@"%ld",(long)titleBar.tag);
     //};
@@ -48,13 +48,21 @@ self.titleBar = [[WYTitleBarView alloc] initWithFrame:CGRectMake(0, 0, UISCREENW
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
     NSLog(@"content====%f",self.contentScrollView.contentOffset.x);
     self.titleBar.contentOffset = CGPointMake((self.contentScrollView.contentOffset.x)/15, 0);
-       NSLog(@"content====%f",self.titleBar.contentOffset.x);
+       //NSLog(@"content====%f",self.titleBar.contentOffset.x);
  
 }
 - (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView{
     NSLog(@"content====%f",self.contentScrollView.contentOffset.x);
-
+    self.titleBar.currentIndex =(self.contentScrollView.contentOffset.x)/UISCREENWIDTH;
+       NSLog(@"  self.titleBar.currentIndex====%ld",  (long)self.titleBar.currentIndex);
 }
+-(void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
+    NSLog(@"scrollViewDidEndDecelerating");
+    NSLog(@"content====%f",self.contentScrollView.contentOffset.x);
+    self.titleBar.currentIndex =(self.contentScrollView.contentOffset.x)/UISCREENWIDTH;
+    NSLog(@"  self.titleBar.currentIndex====%ld",  (long)self.titleBar.currentIndex);
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

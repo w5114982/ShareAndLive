@@ -43,7 +43,7 @@
         //self.alwaysBounceVertical = NO;
 
         //self.pagingEnabled = YES;
-        self.showsHorizontalScrollIndicator = NO;
+        self.showsHorizontalScrollIndicator = YES;
         UIButton *firstTitle = _titleButtons[0];
         [firstTitle setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
         firstTitle.transform = CGAffineTransformMakeScale(1.3, 1.3);
@@ -78,5 +78,9 @@
    // _block =block;
   
 //}
-
+- (void)setCurrentIndex:(NSInteger)currentIndex{
+    UIButton *btn =_titleButtons[currentIndex];
+  //  btn.tag = currentIndex;
+    [self onClick:btn];
+}
 @end
