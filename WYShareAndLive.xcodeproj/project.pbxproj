@@ -23,6 +23,13 @@
 		FF2D52EC1EA4A88A00AAD26D /* WYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52EB1EA4A88A00AAD26D /* WYNavigationController.m */; };
 		FF2D52EF1EA5B3BD00AAD26D /* WYContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52EE1EA5B3BD00AAD26D /* WYContentScrollView.m */; };
 		FFF686201EADA2C2002AE032 /* WYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6861F1EADA2C2002AE032 /* WYTabBarViewController.m */; };
+		FFF686671EAF2A6E002AE032 /* WYContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686661EAF2A6E002AE032 /* WYContainerViewController.m */; };
+		FFF686741EAF3B59002AE032 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6866A1EAF3B59002AE032 /* FMDatabase.m */; };
+		FFF686751EAF3B59002AE032 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6866C1EAF3B59002AE032 /* FMDatabaseAdditions.m */; };
+		FFF686761EAF3B59002AE032 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6866E1EAF3B59002AE032 /* FMDatabasePool.m */; };
+		FFF686771EAF3B59002AE032 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686701EAF3B59002AE032 /* FMDatabaseQueue.m */; };
+		FFF686781EAF3B59002AE032 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686731EAF3B59002AE032 /* FMResultSet.m */; };
+		FFF6867C1EAF3CF1002AE032 /* WYSqliteFmdbTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6867B1EAF3CF1002AE032 /* WYSqliteFmdbTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,7 +84,22 @@
 		FF2D52EE1EA5B3BD00AAD26D /* WYContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYContentScrollView.m; sourceTree = "<group>"; };
 		FFF6861E1EADA2C2002AE032 /* WYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTabBarViewController.h; sourceTree = "<group>"; };
 		FFF6861F1EADA2C2002AE032 /* WYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTabBarViewController.m; sourceTree = "<group>"; };
-		FFF686211EADFB60002AE032 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FFF686211EADFB60002AE032 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		FFF686651EAF2A6E002AE032 /* WYContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYContainerViewController.h; sourceTree = "<group>"; };
+		FFF686661EAF2A6E002AE032 /* WYContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYContainerViewController.m; sourceTree = "<group>"; };
+		FFF686691EAF3B59002AE032 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		FFF6866A1EAF3B59002AE032 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		FFF6866B1EAF3B59002AE032 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		FFF6866C1EAF3B59002AE032 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		FFF6866D1EAF3B59002AE032 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		FFF6866E1EAF3B59002AE032 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		FFF6866F1EAF3B59002AE032 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		FFF686701EAF3B59002AE032 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		FFF686711EAF3B59002AE032 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		FFF686721EAF3B59002AE032 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		FFF686731EAF3B59002AE032 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		FFF6867A1EAF3CF1002AE032 /* WYSqliteFmdbTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYSqliteFmdbTool.h; sourceTree = "<group>"; };
+		FFF6867B1EAF3CF1002AE032 /* WYSqliteFmdbTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYSqliteFmdbTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +148,6 @@
 		FF2D52511E9F179400AAD26D = {
 			isa = PBXGroup;
 			children = (
-				FFF686211EADFB60002AE032 /* PrefixHeader.pch */,
 				FF2D52E91EA4A86600AAD26D /* base */,
 				FF2D525C1E9F179400AAD26D /* WYShareAndLive */,
 				FF2D52761E9F179400AAD26D /* WYShareAndLiveTests */,
@@ -150,6 +171,7 @@
 		FF2D525C1E9F179400AAD26D /* WYShareAndLive */ = {
 			isa = PBXGroup;
 			children = (
+				FFF686791EAF3BB8002AE032 /* Tools */,
 				FF2D52D61EA4523D00AAD26D /* Mine */,
 				FF2D52D51EA4522800AAD26D /* News */,
 				FF2D52D41EA44F2A00AAD26D /* Video */,
@@ -168,6 +190,8 @@
 		FF2D525D1E9F179400AAD26D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FFF686681EAF3B59002AE032 /* fmdb */,
+				FFF686211EADFB60002AE032 /* PrefixHeader.pch */,
 				FF2D525E1E9F179400AAD26D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -221,6 +245,7 @@
 		FF2D52D51EA4522800AAD26D /* News */ = {
 			isa = PBXGroup;
 			children = (
+				FFF686611EAF2A06002AE032 /* 网易新闻 */,
 				FF2D52E51EA460CF00AAD26D /* Controller */,
 				FF2D52E41EA460C700AAD26D /* View */,
 				FF2D52E31EA460BD00AAD26D /* Model */,
@@ -273,6 +298,67 @@
 				FFF6861F1EADA2C2002AE032 /* WYTabBarViewController.m */,
 			);
 			name = base;
+			sourceTree = "<group>";
+		};
+		FFF686611EAF2A06002AE032 /* 网易新闻 */ = {
+			isa = PBXGroup;
+			children = (
+				FFF686641EAF2A36002AE032 /* Controller */,
+				FFF686631EAF2A30002AE032 /* View */,
+				FFF686621EAF2A29002AE032 /* Model */,
+			);
+			name = "网易新闻";
+			sourceTree = "<group>";
+		};
+		FFF686621EAF2A29002AE032 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FFF686631EAF2A30002AE032 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FFF686641EAF2A36002AE032 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FFF686651EAF2A6E002AE032 /* WYContainerViewController.h */,
+				FFF686661EAF2A6E002AE032 /* WYContainerViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FFF686681EAF3B59002AE032 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				FFF686691EAF3B59002AE032 /* FMDatabase.h */,
+				FFF6866A1EAF3B59002AE032 /* FMDatabase.m */,
+				FFF6866B1EAF3B59002AE032 /* FMDatabaseAdditions.h */,
+				FFF6866C1EAF3B59002AE032 /* FMDatabaseAdditions.m */,
+				FFF6866D1EAF3B59002AE032 /* FMDatabasePool.h */,
+				FFF6866E1EAF3B59002AE032 /* FMDatabasePool.m */,
+				FFF6866F1EAF3B59002AE032 /* FMDatabaseQueue.h */,
+				FFF686701EAF3B59002AE032 /* FMDatabaseQueue.m */,
+				FFF686711EAF3B59002AE032 /* FMDB.h */,
+				FFF686721EAF3B59002AE032 /* FMResultSet.h */,
+				FFF686731EAF3B59002AE032 /* FMResultSet.m */,
+			);
+			name = fmdb;
+			path = "fmdb副本";
+			sourceTree = "<group>";
+		};
+		FFF686791EAF3BB8002AE032 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FFF6867A1EAF3CF1002AE032 /* WYSqliteFmdbTool.h */,
+				FFF6867B1EAF3CF1002AE032 /* WYSqliteFmdbTool.m */,
+			);
+			name = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -463,14 +549,21 @@
 			files = (
 				FF2D52DC1EA4529F00AAD26D /* WYVideoViewController.m in Sources */,
 				FF2D52EF1EA5B3BD00AAD26D /* WYContentScrollView.m in Sources */,
+				FFF686741EAF3B59002AE032 /* FMDatabase.m in Sources */,
 				FF2D52621E9F179400AAD26D /* AppDelegate.m in Sources */,
 				FF2D52D11EA4478B00AAD26D /* WYHomeViewController.m in Sources */,
+				FFF686751EAF3B59002AE032 /* FMDatabaseAdditions.m in Sources */,
 				FFF686201EADA2C2002AE032 /* WYTabBarViewController.m in Sources */,
+				FFF686761EAF3B59002AE032 /* FMDatabasePool.m in Sources */,
 				FF2D52DF1EA4541900AAD26D /* WYNewsViewController.m in Sources */,
+				FFF686771EAF3B59002AE032 /* FMDatabaseQueue.m in Sources */,
 				FF2D52E21EA454B100AAD26D /* WYMineViewController.m in Sources */,
 				FF2D52E81EA4615800AAD26D /* WYTitleBarView.m in Sources */,
+				FFF686671EAF2A6E002AE032 /* WYContainerViewController.m in Sources */,
+				FFF686781EAF3B59002AE032 /* FMResultSet.m in Sources */,
 				FF2D52D91EA4529200AAD26D /* WYLiveViewController.m in Sources */,
 				FF2D525F1E9F179400AAD26D /* main.m in Sources */,
+				FFF6867C1EAF3CF1002AE032 /* WYSqliteFmdbTool.m in Sources */,
 				FF2D52EC1EA4A88A00AAD26D /* WYNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

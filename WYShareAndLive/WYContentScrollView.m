@@ -12,7 +12,7 @@
 - (instancetype)initWithFrame:(CGRect)frame andTitles:(NSArray *)titles{
     if (self = [super initWithFrame:frame]) {
         self.contentSize = CGSizeMake(frame.size.width *titles.count, 0);self.backgroundColor = [UIColor yellowColor];
-        
+        self.showsHorizontalScrollIndicator = NO;
     }
     return self;
 }
