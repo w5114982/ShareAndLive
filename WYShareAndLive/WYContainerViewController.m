@@ -8,6 +8,7 @@
 
 #import "WYContainerViewController.h"
 #import "WYSqliteFmdbTool.h"
+#import "WYTitleLabel.h"
 @interface WYContainerViewController ()<UIScrollViewDelegate>
 /*新闻接口的数据*/
 @property(nonatomic,retain)NSArray *arrayLists;
@@ -52,6 +53,37 @@
         [self.view addSubview:self.vcView];
         
     }
+    
+    //添加默认控制器
+    UIViewController *firstVC = [self.childViewControllers firstObject];
+    firstVC.view.frame  =CGRectMake(0, -64, UISCREENWIDTH, UISCREENHEIGHT-144);
+    [self.vcView addSubview:firstVC.view];
+}
+/**添加标题栏*/
+- (void)addLabel{
+    for (int i = 0; i<self.arrayLists.count; i++) {
+        CGFloat lw = 70;
+        CGFloat lh = 40;
+        CGFloat ly = 0;
+        CGFloat lx = i *lw;
+        WYTitleLabel *label = [[WYTitleLabel alloc] init];
+        label.text = self.arrayLists[i][@"title"];
+        label.frame = CGRectMake(lx, ly, lw, lh);
+        label.font = [UIFont systemFontOfSize:22];
+        [self.titleView addSubview:label];
+        label.tag = 1000+i;
+        label.userInteractionEnabled = YES;
+        [label addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(labelClick)]];
+        
+    }
+}
+/**标题点击事件*/
+- (void)labelClick:(UITapGestureRecognizer *)tap{
+    WYTitleLabel *label = (WYTitleLabel *)tap.view;
+    CGFloat offsetx = (label.tag-1000)*self.vcView.frame.size.width;
+    CGFloat offsety = self.vcView.contentOffset.y;
+    CGPoint offset = CGPointMake(offsetx, offsety);
+    [self.vcView setContentOffset:offset animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
