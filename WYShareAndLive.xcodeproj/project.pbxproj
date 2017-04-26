@@ -30,6 +30,7 @@
 		FFF686771EAF3B59002AE032 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686701EAF3B59002AE032 /* FMDatabaseQueue.m */; };
 		FFF686781EAF3B59002AE032 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686731EAF3B59002AE032 /* FMResultSet.m */; };
 		FFF6867C1EAF3CF1002AE032 /* WYSqliteFmdbTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6867B1EAF3CF1002AE032 /* WYSqliteFmdbTool.m */; };
+		FFF6867F1EB07E56002AE032 /* WYTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6867E1EB07E56002AE032 /* WYTitleLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,8 @@
 		FFF686731EAF3B59002AE032 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		FFF6867A1EAF3CF1002AE032 /* WYSqliteFmdbTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYSqliteFmdbTool.h; sourceTree = "<group>"; };
 		FFF6867B1EAF3CF1002AE032 /* WYSqliteFmdbTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYSqliteFmdbTool.m; sourceTree = "<group>"; };
+		FFF6867D1EB07E56002AE032 /* WYTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTitleLabel.h; sourceTree = "<group>"; };
+		FFF6867E1EB07E56002AE032 /* WYTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTitleLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -320,6 +323,8 @@
 		FFF686631EAF2A30002AE032 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FFF6867D1EB07E56002AE032 /* WYTitleLabel.h */,
+				FFF6867E1EB07E56002AE032 /* WYTitleLabel.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -551,6 +556,7 @@
 				FF2D52EF1EA5B3BD00AAD26D /* WYContentScrollView.m in Sources */,
 				FFF686741EAF3B59002AE032 /* FMDatabase.m in Sources */,
 				FF2D52621E9F179400AAD26D /* AppDelegate.m in Sources */,
+				FFF6867F1EB07E56002AE032 /* WYTitleLabel.m in Sources */,
 				FF2D52D11EA4478B00AAD26D /* WYHomeViewController.m in Sources */,
 				FFF686751EAF3B59002AE032 /* FMDatabaseAdditions.m in Sources */,
 				FFF686201EADA2C2002AE032 /* WYTabBarViewController.m in Sources */,
