@@ -12,7 +12,16 @@
 
 #define UISCREENHEIGHT ([UIScreen mainScreen].bounds.size.height)
 #define UISCREENWIDTH ([UIScreen mainScreen].bounds.size.width)
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/*Cell高度**/
+#define ONEIMAGECELLHEIGHT 80
+#define ONEBIGIMAGECELLHEIGHT 250
+#define IMAGESCELLHEIGHT 130
+
+/*Cell标识符**/
+#define NEWSONEIMAGECELL @"OneImageCell"
+#define NEWSONEBIGIMAGECELL @"BigImageCell"
+#define NEWSIMAGESCELL @"ImagesCell"
+
 
 #endif /* PrefixHeader_pch */

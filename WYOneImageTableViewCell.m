@@ -7,6 +7,13 @@
 //
 
 #import "WYOneImageTableViewCell.h"
+#import "WYTools.h"
+
+/*图片与文字以及边线的距离**/
+#define ONEIMAGESPACE 10
+
+/*图片与屏幕宽度的比例**/
+#define IMAGESCALE 0.25
 
 @implementation WYOneImageTableViewCell
 
@@ -17,5 +24,16 @@
     // Drawing code
 }
 */
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        
+    }
+    return self;
+}
+
+- (void)createUI{
+  //  self.titleImage = [UIImageView alloc] initWithFrame:CGRectMake(ONEIMAGESPACE,ONEIMAGESPACE , UISCREENWIDTH *IMAGESCALE,<#CGFloat height#>)
+    //
+}
 
 @end
