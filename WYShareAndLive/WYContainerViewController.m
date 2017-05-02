@@ -35,6 +35,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self createScrollView];
+    [self addLabel];
+    
     // Do any additional setup after loading the view.
 }
 
@@ -73,7 +76,7 @@
         [self.titleView addSubview:label];
         label.tag = 1000+i;
         label.userInteractionEnabled = YES;
-        [label addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(labelClick)]];
+        [label addGestureRecognizer:[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(labelClick:)]];
         
     }
 }
@@ -88,6 +91,36 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+
+#pragma mark - scrollView Delegate
+- (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView{
+    //获取索引页
+    NSInteger index = scrollView.contentOffset.x/self.vcView.bounds.size.width;
+    
+    //滚动标题栏
+    WYTitleLabel *titleLabel = (WYTitleLabel *)self.titleView.subviews[index];
+    CGFloat offsetX = titleLabel.center.x-self.titleView.frame.size.width*0.5;
+    CGFloat offsetMax = self.titleView.contentSize.width -self.titleView.frame.size.width;
+    if (offsetX<0) {
+        offsetX = 0;
+    }
+    else if(offsetX>offsetMax){
+        offsetX = offsetMax;
+    }
+    CGPoint offset = CGPointMake(offsetX, self.titleView.contentOffset.y);
+    [self.titleView setContentOffset:offset animated:YES];
+    
+    
+    
+    [self.titleView.subviews enumerateObjectsUsingBlock:^(__kindof UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if (idx != index) {
+            WYTitleLabel *temp = self.titleView.subviews[idx];
+            temp.scale = 0;
+        }
+    }];
 }
 
 /*

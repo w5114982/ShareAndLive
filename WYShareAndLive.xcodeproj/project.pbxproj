@@ -31,6 +31,8 @@
 		FFF686781EAF3B59002AE032 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686731EAF3B59002AE032 /* FMResultSet.m */; };
 		FFF6867C1EAF3CF1002AE032 /* WYSqliteFmdbTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6867B1EAF3CF1002AE032 /* WYSqliteFmdbTool.m */; };
 		FFF6867F1EB07E56002AE032 /* WYTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6867E1EB07E56002AE032 /* WYTitleLabel.m */; };
+		FFF686821EB8300B002AE032 /* WYBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686811EB8300B002AE032 /* WYBaseTableViewController.m */; };
+		FFF686861EB83293002AE032 /* WYBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686851EB83293002AE032 /* WYBaseTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +105,10 @@
 		FFF6867B1EAF3CF1002AE032 /* WYSqliteFmdbTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYSqliteFmdbTool.m; sourceTree = "<group>"; };
 		FFF6867D1EB07E56002AE032 /* WYTitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTitleLabel.h; sourceTree = "<group>"; };
 		FFF6867E1EB07E56002AE032 /* WYTitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTitleLabel.m; sourceTree = "<group>"; };
+		FFF686801EB8300B002AE032 /* WYBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYBaseTableViewController.h; sourceTree = "<group>"; };
+		FFF686811EB8300B002AE032 /* WYBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYBaseTableViewController.m; sourceTree = "<group>"; };
+		FFF686841EB83293002AE032 /* WYBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYBaseTableViewCell.h; sourceTree = "<group>"; };
+		FFF686851EB83293002AE032 /* WYBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYBaseTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,7 @@
 		FF2D52511E9F179400AAD26D = {
 			isa = PBXGroup;
 			children = (
+				FFF686831EB831DE002AE032 /* AllCell */,
 				FF2D52E91EA4A86600AAD26D /* base */,
 				FF2D525C1E9F179400AAD26D /* WYShareAndLive */,
 				FF2D52761E9F179400AAD26D /* WYShareAndLiveTests */,
@@ -299,6 +306,10 @@
 				FF2D52EB1EA4A88A00AAD26D /* WYNavigationController.m */,
 				FFF6861E1EADA2C2002AE032 /* WYTabBarViewController.h */,
 				FFF6861F1EADA2C2002AE032 /* WYTabBarViewController.m */,
+				FFF686801EB8300B002AE032 /* WYBaseTableViewController.h */,
+				FFF686811EB8300B002AE032 /* WYBaseTableViewController.m */,
+				FFF686841EB83293002AE032 /* WYBaseTableViewCell.h */,
+				FFF686851EB83293002AE032 /* WYBaseTableViewCell.m */,
 			);
 			name = base;
 			sourceTree = "<group>";
@@ -364,6 +375,13 @@
 				FFF6867B1EAF3CF1002AE032 /* WYSqliteFmdbTool.m */,
 			);
 			name = Tools;
+			sourceTree = "<group>";
+		};
+		FFF686831EB831DE002AE032 /* AllCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AllCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -552,10 +570,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF686861EB83293002AE032 /* WYBaseTableViewCell.m in Sources */,
 				FF2D52DC1EA4529F00AAD26D /* WYVideoViewController.m in Sources */,
 				FF2D52EF1EA5B3BD00AAD26D /* WYContentScrollView.m in Sources */,
 				FFF686741EAF3B59002AE032 /* FMDatabase.m in Sources */,
 				FF2D52621E9F179400AAD26D /* AppDelegate.m in Sources */,
+				FFF686821EB8300B002AE032 /* WYBaseTableViewController.m in Sources */,
 				FFF6867F1EB07E56002AE032 /* WYTitleLabel.m in Sources */,
 				FF2D52D11EA4478B00AAD26D /* WYHomeViewController.m in Sources */,
 				FFF686751EAF3B59002AE032 /* FMDatabaseAdditions.m in Sources */,
