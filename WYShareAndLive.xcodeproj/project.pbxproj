@@ -33,6 +33,10 @@
 		FFF6867F1EB07E56002AE032 /* WYTitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6867E1EB07E56002AE032 /* WYTitleLabel.m */; };
 		FFF686821EB8300B002AE032 /* WYBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686811EB8300B002AE032 /* WYBaseTableViewController.m */; };
 		FFF686861EB83293002AE032 /* WYBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686851EB83293002AE032 /* WYBaseTableViewCell.m */; };
+		FFF686891EB851F2002AE032 /* WYOneBigImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686881EB851F2002AE032 /* WYOneBigImageTableViewCell.m */; };
+		FFF6868C1EB8528C002AE032 /* WYImagesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6868B1EB8528C002AE032 /* WYImagesTableViewCell.m */; };
+		FFF6868F1EB852BD002AE032 /* WYOneImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6868E1EB852BD002AE032 /* WYOneImageTableViewCell.m */; };
+		FFF686921EB854B5002AE032 /* WYTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686911EB854B5002AE032 /* WYTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +113,14 @@
 		FFF686811EB8300B002AE032 /* WYBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYBaseTableViewController.m; sourceTree = "<group>"; };
 		FFF686841EB83293002AE032 /* WYBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYBaseTableViewCell.h; sourceTree = "<group>"; };
 		FFF686851EB83293002AE032 /* WYBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYBaseTableViewCell.m; sourceTree = "<group>"; };
+		FFF686871EB851F2002AE032 /* WYOneBigImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYOneBigImageTableViewCell.h; sourceTree = "<group>"; };
+		FFF686881EB851F2002AE032 /* WYOneBigImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYOneBigImageTableViewCell.m; sourceTree = "<group>"; };
+		FFF6868A1EB8528C002AE032 /* WYImagesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYImagesTableViewCell.h; sourceTree = "<group>"; };
+		FFF6868B1EB8528C002AE032 /* WYImagesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYImagesTableViewCell.m; sourceTree = "<group>"; };
+		FFF6868D1EB852BD002AE032 /* WYOneImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYOneImageTableViewCell.h; sourceTree = "<group>"; };
+		FFF6868E1EB852BD002AE032 /* WYOneImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYOneImageTableViewCell.m; sourceTree = "<group>"; };
+		FFF686901EB854B5002AE032 /* WYTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTools.h; sourceTree = "<group>"; };
+		FFF686911EB854B5002AE032 /* WYTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -373,6 +385,8 @@
 			children = (
 				FFF6867A1EAF3CF1002AE032 /* WYSqliteFmdbTool.h */,
 				FFF6867B1EAF3CF1002AE032 /* WYSqliteFmdbTool.m */,
+				FFF686901EB854B5002AE032 /* WYTools.h */,
+				FFF686911EB854B5002AE032 /* WYTools.m */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -380,6 +394,12 @@
 		FFF686831EB831DE002AE032 /* AllCell */ = {
 			isa = PBXGroup;
 			children = (
+				FFF686871EB851F2002AE032 /* WYOneBigImageTableViewCell.h */,
+				FFF686881EB851F2002AE032 /* WYOneBigImageTableViewCell.m */,
+				FFF6868A1EB8528C002AE032 /* WYImagesTableViewCell.h */,
+				FFF6868B1EB8528C002AE032 /* WYImagesTableViewCell.m */,
+				FFF6868D1EB852BD002AE032 /* WYOneImageTableViewCell.h */,
+				FFF6868E1EB852BD002AE032 /* WYOneImageTableViewCell.m */,
 			);
 			name = AllCell;
 			sourceTree = "<group>";
@@ -570,11 +590,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF686921EB854B5002AE032 /* WYTools.m in Sources */,
 				FFF686861EB83293002AE032 /* WYBaseTableViewCell.m in Sources */,
 				FF2D52DC1EA4529F00AAD26D /* WYVideoViewController.m in Sources */,
 				FF2D52EF1EA5B3BD00AAD26D /* WYContentScrollView.m in Sources */,
 				FFF686741EAF3B59002AE032 /* FMDatabase.m in Sources */,
 				FF2D52621E9F179400AAD26D /* AppDelegate.m in Sources */,
+				FFF686891EB851F2002AE032 /* WYOneBigImageTableViewCell.m in Sources */,
 				FFF686821EB8300B002AE032 /* WYBaseTableViewController.m in Sources */,
 				FFF6867F1EB07E56002AE032 /* WYTitleLabel.m in Sources */,
 				FF2D52D11EA4478B00AAD26D /* WYHomeViewController.m in Sources */,
@@ -585,9 +607,11 @@
 				FFF686771EAF3B59002AE032 /* FMDatabaseQueue.m in Sources */,
 				FF2D52E21EA454B100AAD26D /* WYMineViewController.m in Sources */,
 				FF2D52E81EA4615800AAD26D /* WYTitleBarView.m in Sources */,
+				FFF6868C1EB8528C002AE032 /* WYImagesTableViewCell.m in Sources */,
 				FFF686671EAF2A6E002AE032 /* WYContainerViewController.m in Sources */,
 				FFF686781EAF3B59002AE032 /* FMResultSet.m in Sources */,
 				FF2D52D91EA4529200AAD26D /* WYLiveViewController.m in Sources */,
+				FFF6868F1EB852BD002AE032 /* WYOneImageTableViewCell.m in Sources */,
 				FF2D525F1E9F179400AAD26D /* main.m in Sources */,
 				FFF6867C1EAF3CF1002AE032 /* WYSqliteFmdbTool.m in Sources */,
 				FF2D52EC1EA4A88A00AAD26D /* WYNavigationController.m in Sources */,
