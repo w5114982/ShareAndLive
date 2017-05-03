@@ -12,6 +12,6 @@
 @property(nonatomic,strong)UIImageView *titleImage;
 
 @property(nonatomic,strong)UILabel *titleLabel;
-
+@property(nonatomic,strong)UILabel *digestLabel;
 - (void)getDataWithModel:(id)model;
 @end
