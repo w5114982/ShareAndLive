@@ -37,6 +37,7 @@
 		FFF6868C1EB8528C002AE032 /* WYImagesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6868B1EB8528C002AE032 /* WYImagesTableViewCell.m */; };
 		FFF6868F1EB852BD002AE032 /* WYOneImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6868E1EB852BD002AE032 /* WYOneImageTableViewCell.m */; };
 		FFF686921EB854B5002AE032 /* WYTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686911EB854B5002AE032 /* WYTools.m */; };
+		FFF686951EB9BE93002AE032 /* WYNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686941EB9BE93002AE032 /* WYNewsModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +122,8 @@
 		FFF6868E1EB852BD002AE032 /* WYOneImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYOneImageTableViewCell.m; sourceTree = "<group>"; };
 		FFF686901EB854B5002AE032 /* WYTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTools.h; sourceTree = "<group>"; };
 		FFF686911EB854B5002AE032 /* WYTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTools.m; sourceTree = "<group>"; };
+		FFF686931EB9BE93002AE032 /* WYNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYNewsModel.h; sourceTree = "<group>"; };
+		FFF686941EB9BE93002AE032 /* WYNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNewsModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -339,6 +342,8 @@
 		FFF686621EAF2A29002AE032 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FFF686931EB9BE93002AE032 /* WYNewsModel.h */,
+				FFF686941EB9BE93002AE032 /* WYNewsModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -604,6 +609,7 @@
 				FFF686201EADA2C2002AE032 /* WYTabBarViewController.m in Sources */,
 				FFF686761EAF3B59002AE032 /* FMDatabasePool.m in Sources */,
 				FF2D52DF1EA4541900AAD26D /* WYNewsViewController.m in Sources */,
+				FFF686951EB9BE93002AE032 /* WYNewsModel.m in Sources */,
 				FFF686771EAF3B59002AE032 /* FMDatabaseQueue.m in Sources */,
 				FF2D52E21EA454B100AAD26D /* WYMineViewController.m in Sources */,
 				FF2D52E81EA4615800AAD26D /* WYTitleBarView.m in Sources */,
