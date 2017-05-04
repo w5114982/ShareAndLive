@@ -9,5 +9,9 @@
 #import "WYNewsModel.h"
 
 @implementation WYNewsModel
-
++ (instancetype)newsModelWithDic:(NSDictionary *)dic{
+    WYNewsModel *model = [WYNewsModel new];
+    [model setValuesForKeysWithDictionary:dic];
+    return model;
+}
 @end

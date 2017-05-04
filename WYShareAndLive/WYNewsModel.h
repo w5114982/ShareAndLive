@@ -46,5 +46,22 @@
 /**专题新闻特有属性*/
 
 /**专题类型*/
+@property(nonatomic,copy)NSString *skipType;
+/**专题标识符*/
+@property (nonatomic , copy)NSString  *specialID;
+/**专题标识符*/
+@property (nonatomic , copy)NSString*  skipID;
+/**多图数组*/
+@property (nonatomic,retain)NSArray *imgextra;
+/***/
+@property (nonatomic , assign)BOOL  hasCover;
+/***/
+@property (nonatomic , retain)NSArray   *ads;
+/***/
+@property (nonatomic , retain)NSNumber  *imgType;
+/***/
+@property (nonatomic , retain)NSString  *photosetID;
+
++ (instancetype)newsModelWithDic:(NSDictionary *)dic;
 
 @end
