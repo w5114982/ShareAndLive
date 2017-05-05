@@ -8,6 +8,7 @@
 
 #import "WYOneImageTableViewCell.h"
 #import "WYTools.h"
+#import "WYNewsModel.h"
 
 /*图片与文字以及边线的距离**/
 #define ONEIMAGESPACE 10
@@ -46,6 +47,25 @@
     self.replyCount = [WYTools replyCountLabelWithFrame:CGRectMake(UISCREENWIDTH -50, ONEIMAGESPACE + ONEIMAGECELLHEIGHT * 0.6, 40, 20)];
     [self addSubview:self.replyCount];
     
+}
+- (void)getDataWithModel:(id)model{
+    WYNewsModel *newsModel = (WYNewsModel *)model;
+    [self.titleImage sd_setImageWithURL:[NSURL URLWithString:newsModel.imgsrc] placeholderImage:nil];
+    self.titleLabel.text = newsModel.title;
+    self.digestLabel.text = newsModel.digest;
+    if ([newsModel.skipType isEqual:@"special"]) {
+        self.replyCount.text = @"专题";
+        self.replyCount.textColor = [UIColor redColor];
+    }
+    else if([newsModel.skipType isEqual:@"live"]){
+        self.replyCount.text = @"直播";
+        self.replyCount.textColor = [UIColor blueColor];
+        
+    }
+    else{
+        [WYTools replyCountLabelWidth:newsModel.replyCount Height:20 font:12 view:self.replyCount];
+        self.replyCount.textColor = [UIColor grayColor];
+    }
 }
 
 @end
