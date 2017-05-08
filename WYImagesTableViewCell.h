@@ -9,5 +9,9 @@
 #import "WYBaseTableViewCell.h"
 
 @interface WYImagesTableViewCell : WYBaseTableViewCell
-
+/**三个图片*/
+@property(nonatomic,retain)UIImageView *imageCenter;
+@property(nonatomic,retain)UIImageView *imageRight;
+/**跟帖数*/
+@property(nonatomic,retain)UILabel *replyCountLabel;
 @end
