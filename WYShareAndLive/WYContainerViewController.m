@@ -119,6 +119,7 @@
         if (idx != index) {
             WYTitleLabel *temp = self.titleView.subviews[idx];
             temp.scale = 0;
+            
         }
     }];
 }

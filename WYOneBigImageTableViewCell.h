@@ -9,5 +9,6 @@
 #import "WYBaseTableViewCell.h"
 
 @interface WYOneBigImageTableViewCell : WYBaseTableViewCell
+@property (nonatomic , retain)UILabel  *replyCount;
 
 @end

@@ -38,6 +38,7 @@
 		FFF6868F1EB852BD002AE032 /* WYOneImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6868E1EB852BD002AE032 /* WYOneImageTableViewCell.m */; };
 		FFF686921EB854B5002AE032 /* WYTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686911EB854B5002AE032 /* WYTools.m */; };
 		FFF686951EB9BE93002AE032 /* WYNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686941EB9BE93002AE032 /* WYNewsModel.m */; };
+		FFF686981EC1AC7A002AE032 /* WYCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686971EC1AC7A002AE032 /* WYCellFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,8 @@
 		FFF686911EB854B5002AE032 /* WYTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTools.m; sourceTree = "<group>"; };
 		FFF686931EB9BE93002AE032 /* WYNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYNewsModel.h; sourceTree = "<group>"; };
 		FFF686941EB9BE93002AE032 /* WYNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNewsModel.m; sourceTree = "<group>"; };
+		FFF686961EC1AC7A002AE032 /* WYCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYCellFactory.h; sourceTree = "<group>"; };
+		FFF686971EC1AC7A002AE032 /* WYCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYCellFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -392,6 +395,8 @@
 				FFF6867B1EAF3CF1002AE032 /* WYSqliteFmdbTool.m */,
 				FFF686901EB854B5002AE032 /* WYTools.h */,
 				FFF686911EB854B5002AE032 /* WYTools.m */,
+				FFF686961EC1AC7A002AE032 /* WYCellFactory.h */,
+				FFF686971EC1AC7A002AE032 /* WYCellFactory.m */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -602,6 +607,7 @@
 				FFF686741EAF3B59002AE032 /* FMDatabase.m in Sources */,
 				FF2D52621E9F179400AAD26D /* AppDelegate.m in Sources */,
 				FFF686891EB851F2002AE032 /* WYOneBigImageTableViewCell.m in Sources */,
+				FFF686981EC1AC7A002AE032 /* WYCellFactory.m in Sources */,
 				FFF686821EB8300B002AE032 /* WYBaseTableViewController.m in Sources */,
 				FFF6867F1EB07E56002AE032 /* WYTitleLabel.m in Sources */,
 				FF2D52D11EA4478B00AAD26D /* WYHomeViewController.m in Sources */,
