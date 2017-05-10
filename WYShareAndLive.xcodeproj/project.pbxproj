@@ -39,6 +39,7 @@
 		FFF686921EB854B5002AE032 /* WYTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686911EB854B5002AE032 /* WYTools.m */; };
 		FFF686951EB9BE93002AE032 /* WYNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686941EB9BE93002AE032 /* WYNewsModel.m */; };
 		FFF686981EC1AC7A002AE032 /* WYCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686971EC1AC7A002AE032 /* WYCellFactory.m */; };
+		FFF6869B1EC1BE57002AE032 /* WYNetWorkTask.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6869A1EC1BE57002AE032 /* WYNetWorkTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +128,8 @@
 		FFF686941EB9BE93002AE032 /* WYNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNewsModel.m; sourceTree = "<group>"; };
 		FFF686961EC1AC7A002AE032 /* WYCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYCellFactory.h; sourceTree = "<group>"; };
 		FFF686971EC1AC7A002AE032 /* WYCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYCellFactory.m; sourceTree = "<group>"; };
+		FFF686991EC1BE57002AE032 /* WYNetWorkTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYNetWorkTask.h; sourceTree = "<group>"; };
+		FFF6869A1EC1BE57002AE032 /* WYNetWorkTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNetWorkTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -397,6 +400,8 @@
 				FFF686911EB854B5002AE032 /* WYTools.m */,
 				FFF686961EC1AC7A002AE032 /* WYCellFactory.h */,
 				FFF686971EC1AC7A002AE032 /* WYCellFactory.m */,
+				FFF686991EC1BE57002AE032 /* WYNetWorkTask.h */,
+				FFF6869A1EC1BE57002AE032 /* WYNetWorkTask.m */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -615,6 +620,7 @@
 				FFF686201EADA2C2002AE032 /* WYTabBarViewController.m in Sources */,
 				FFF686761EAF3B59002AE032 /* FMDatabasePool.m in Sources */,
 				FF2D52DF1EA4541900AAD26D /* WYNewsViewController.m in Sources */,
+				FFF6869B1EC1BE57002AE032 /* WYNetWorkTask.m in Sources */,
 				FFF686951EB9BE93002AE032 /* WYNewsModel.m in Sources */,
 				FFF686771EAF3B59002AE032 /* FMDatabaseQueue.m in Sources */,
 				FF2D52E21EA454B100AAD26D /* WYMineViewController.m in Sources */,
