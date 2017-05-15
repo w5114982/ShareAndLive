@@ -7,6 +7,12 @@
 //
 
 #import "WYBaseTableViewController.h"
+#import "WYImagesTableViewCell.h"
+#import "WYOneImageTableViewCell.h"
+#import "WYOneBigImageTableViewCell.h"
+#import <RDVTabBar.h>
+#import <RDVTabBarItem.h>
+#import <RDVTabBarController.h>
 
 @interface WYBaseTableViewController ()
 
@@ -16,6 +22,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.tableView registerClass:[WYImagesTableViewCell class] forCellReuseIdentifier:NEWSIMAGESCELL];
+    [self.tableView registerClass:[WYOneImageTableViewCell class] forCellReuseIdentifier:NEWSONEIMAGECELL];
+    [self.tableView registerClass:[WYOneBigImageTableViewCell class] forCellReuseIdentifier:NEWSONEBIGIMAGECELL];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -24,6 +33,15 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self.rdv_tabBarController setTabBarHidden:NO];
+}
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [self.rdv_tabBarController setTabBarHidden:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

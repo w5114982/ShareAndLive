@@ -15,6 +15,8 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - Masonry (1.0.2)
+  - MJRefresh (3.1.12)
+  - RDVTabBarController (1.1.9)
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
@@ -139,15 +141,19 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - Masonry (~> 1.0.2)
+  - MJRefresh (~> 3.1.12)
+  - RDVTabBarController (~> 1.1.9)
   - SDWebImage (~> 3.7.5)
   - UMengUShare (~> 6.4.2)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   UMengUShare: d39cb682598df87ebdd3c055d03d00eb0102d42c
 
-PODFILE CHECKSUM: ebcfc461b9bf6cbfe7d1d6cf2399fa037745bcb4
+PODFILE CHECKSUM: bcaf9b96ce4a2c18b176fd5e0cb3463c8b87ccb8
 
 COCOAPODS: 1.2.1

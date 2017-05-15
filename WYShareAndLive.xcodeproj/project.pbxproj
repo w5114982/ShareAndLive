@@ -40,6 +40,7 @@
 		FFF686951EB9BE93002AE032 /* WYNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686941EB9BE93002AE032 /* WYNewsModel.m */; };
 		FFF686981EC1AC7A002AE032 /* WYCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686971EC1AC7A002AE032 /* WYCellFactory.m */; };
 		FFF6869B1EC1BE57002AE032 /* WYNetWorkTask.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6869A1EC1BE57002AE032 /* WYNetWorkTask.m */; };
+		FFF6869E1EC4408B002AE032 /* WYNewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6869D1EC4408B002AE032 /* WYNewsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +131,8 @@
 		FFF686971EC1AC7A002AE032 /* WYCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYCellFactory.m; sourceTree = "<group>"; };
 		FFF686991EC1BE57002AE032 /* WYNetWorkTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYNetWorkTask.h; sourceTree = "<group>"; };
 		FFF6869A1EC1BE57002AE032 /* WYNetWorkTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNetWorkTask.m; sourceTree = "<group>"; };
+		FFF6869C1EC4408B002AE032 /* WYNewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WYNewsTableViewController.h; path = ../WYNewsTableViewController.h; sourceTree = "<group>"; };
+		FFF6869D1EC4408B002AE032 /* WYNewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WYNewsTableViewController.m; path = ../WYNewsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,6 +371,8 @@
 			children = (
 				FFF686651EAF2A6E002AE032 /* WYContainerViewController.h */,
 				FFF686661EAF2A6E002AE032 /* WYContainerViewController.m */,
+				FFF6869C1EC4408B002AE032 /* WYNewsTableViewController.h */,
+				FFF6869D1EC4408B002AE032 /* WYNewsTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -624,6 +629,7 @@
 				FFF686951EB9BE93002AE032 /* WYNewsModel.m in Sources */,
 				FFF686771EAF3B59002AE032 /* FMDatabaseQueue.m in Sources */,
 				FF2D52E21EA454B100AAD26D /* WYMineViewController.m in Sources */,
+				FFF6869E1EC4408B002AE032 /* WYNewsTableViewController.m in Sources */,
 				FF2D52E81EA4615800AAD26D /* WYTitleBarView.m in Sources */,
 				FFF6868C1EB8528C002AE032 /* WYImagesTableViewCell.m in Sources */,
 				FFF686671EAF2A6E002AE032 /* WYContainerViewController.m in Sources */,
