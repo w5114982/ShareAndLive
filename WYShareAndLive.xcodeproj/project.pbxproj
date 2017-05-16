@@ -22,6 +22,9 @@
 		FF2D52E81EA4615800AAD26D /* WYTitleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52E71EA4615800AAD26D /* WYTitleBarView.m */; };
 		FF2D52EC1EA4A88A00AAD26D /* WYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52EB1EA4A88A00AAD26D /* WYNavigationController.m */; };
 		FF2D52EF1EA5B3BD00AAD26D /* WYContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52EE1EA5B3BD00AAD26D /* WYContentScrollView.m */; };
+		FFEBA2D11ECAD10800BAF8EF /* 02-欢迎页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFEBA2D01ECAD10800BAF8EF /* 02-欢迎页.jpg */; };
+		FFEBA2DC1ECAE1E900BAF8EF /* WYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEBA2DA1ECAE1E900BAF8EF /* WYLoginViewController.m */; };
+		FFEBA2DD1ECAE1E900BAF8EF /* WYLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFEBA2DB1ECAE1E900BAF8EF /* WYLoginViewController.xib */; };
 		FFF686201EADA2C2002AE032 /* WYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6861F1EADA2C2002AE032 /* WYTabBarViewController.m */; };
 		FFF686671EAF2A6E002AE032 /* WYContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF686661EAF2A6E002AE032 /* WYContainerViewController.m */; };
 		FFF686741EAF3B59002AE032 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6866A1EAF3B59002AE032 /* FMDatabase.m */; };
@@ -93,6 +96,10 @@
 		FF2D52EB1EA4A88A00AAD26D /* WYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNavigationController.m; sourceTree = "<group>"; };
 		FF2D52ED1EA5B3BD00AAD26D /* WYContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYContentScrollView.h; sourceTree = "<group>"; };
 		FF2D52EE1EA5B3BD00AAD26D /* WYContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYContentScrollView.m; sourceTree = "<group>"; };
+		FFEBA2D01ECAD10800BAF8EF /* 02-欢迎页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02-欢迎页.jpg"; sourceTree = "<group>"; };
+		FFEBA2D91ECAE1E900BAF8EF /* WYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLoginViewController.h; sourceTree = "<group>"; };
+		FFEBA2DA1ECAE1E900BAF8EF /* WYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLoginViewController.m; sourceTree = "<group>"; };
+		FFEBA2DB1ECAE1E900BAF8EF /* WYLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYLoginViewController.xib; sourceTree = "<group>"; };
 		FFF6861E1EADA2C2002AE032 /* WYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTabBarViewController.h; sourceTree = "<group>"; };
 		FFF6861F1EADA2C2002AE032 /* WYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTabBarViewController.m; sourceTree = "<group>"; };
 		FFF686211EADFB60002AE032 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
@@ -205,6 +212,7 @@
 		FF2D525C1E9F179400AAD26D /* WYShareAndLive */ = {
 			isa = PBXGroup;
 			children = (
+				FFEBA2D21ECAD92400BAF8EF /* Login */,
 				FFF686791EAF3BB8002AE032 /* Tools */,
 				FF2D52D61EA4523D00AAD26D /* Mine */,
 				FF2D52D51EA4522800AAD26D /* News */,
@@ -214,6 +222,7 @@
 				FF2D52601E9F179400AAD26D /* AppDelegate.h */,
 				FF2D52611E9F179400AAD26D /* AppDelegate.m */,
 				FF2D52691E9F179400AAD26D /* Assets.xcassets */,
+				FFEBA2D01ECAD10800BAF8EF /* 02-欢迎页.jpg */,
 				FF2D526B1E9F179400AAD26D /* LaunchScreen.storyboard */,
 				FF2D526E1E9F179400AAD26D /* Info.plist */,
 				FF2D525D1E9F179400AAD26D /* Supporting Files */,
@@ -336,6 +345,40 @@
 				FFF686851EB83293002AE032 /* WYBaseTableViewCell.m */,
 			);
 			name = base;
+			sourceTree = "<group>";
+		};
+		FFEBA2D21ECAD92400BAF8EF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FFEBA2D51ECAD94900BAF8EF /* Model */,
+				FFEBA2D41ECAD94700BAF8EF /* View */,
+				FFEBA2D31ECAD94500BAF8EF /* Controller */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		FFEBA2D31ECAD94500BAF8EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FFEBA2D91ECAE1E900BAF8EF /* WYLoginViewController.h */,
+				FFEBA2DA1ECAE1E900BAF8EF /* WYLoginViewController.m */,
+				FFEBA2DB1ECAE1E900BAF8EF /* WYLoginViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FFEBA2D41ECAD94700BAF8EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FFEBA2D51ECAD94900BAF8EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		FFF686611EAF2A06002AE032 /* 网易新闻 */ = {
@@ -536,7 +579,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFEBA2D11ECAD10800BAF8EF /* 02-欢迎页.jpg in Resources */,
 				FF2D526D1E9F179400AAD26D /* LaunchScreen.storyboard in Resources */,
+				FFEBA2DD1ECAE1E900BAF8EF /* WYLoginViewController.xib in Resources */,
 				FF2D526A1E9F179400AAD26D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -626,6 +671,7 @@
 				FFF686761EAF3B59002AE032 /* FMDatabasePool.m in Sources */,
 				FF2D52DF1EA4541900AAD26D /* WYNewsViewController.m in Sources */,
 				FFF6869B1EC1BE57002AE032 /* WYNetWorkTask.m in Sources */,
+				FFEBA2DC1ECAE1E900BAF8EF /* WYLoginViewController.m in Sources */,
 				FFF686951EB9BE93002AE032 /* WYNewsModel.m in Sources */,
 				FFF686771EAF3B59002AE032 /* FMDatabaseQueue.m in Sources */,
 				FF2D52E21EA454B100AAD26D /* WYMineViewController.m in Sources */,

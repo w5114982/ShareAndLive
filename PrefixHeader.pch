@@ -18,10 +18,12 @@
 #define ONEBIGIMAGECELLHEIGHT 250
 #define IMAGESCELLHEIGHT 130
 
+
 /*Cell标识符**/
 #define NEWSONEIMAGECELL @"OneImageCell"
 #define NEWSONEBIGIMAGECELL @"BigImageCell"
 #define NEWSIMAGESCELL @"ImagesCell"
+#define NEWSONEIMAGECELLSPECIAL @"OneImageCellSpecial"
 
 
 #endif /* PrefixHeader_pch */

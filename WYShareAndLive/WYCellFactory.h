@@ -21,4 +21,13 @@ typedef NS_ENUM(NSUInteger,CellType){
 };
 
 
++ (CellType)cellTypeWithModel:(id)model;
+
++ (WYBaseTableViewCell *)cellWithTableView:(UITableView *)tableView Model:(id)model IndexPath:(NSIndexPath *)indexPath;
+
++ (WYBaseTableViewCell *)cellWithTableView:(UITableView *)tableView Model:(id)model IndexPath:(NSIndexPath *)indexPath Type:(CellType)type;
+
++ (CGFloat)cellHeightWIthModel:(id)model;
+
++ (CGFloat)cellHeightWithModel:(id)model Type:(CellType)type;
 @end

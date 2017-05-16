@@ -1,37 +1,28 @@
 //
-//  WYMineViewController.m
+//  WYLoginViewController.m
 //  WYShareAndLive
 //
-//  Created by MR-BusWang on 17/4/17.
+//  Created by MR-BusWang on 17/5/16.
 //  Copyright © 2017年 乾坤翰林. All rights reserved.
 //
 
-#import "WYMineViewController.h"
 #import "WYLoginViewController.h"
-@interface WYMineViewController ()
+
+@interface WYLoginViewController ()
 
 @end
 
-@implementation WYMineViewController
+@implementation WYLoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor greenColor];
-
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    WYLoginViewController *loginVC = [[WYLoginViewController alloc]init];
-    [self presentViewController:loginVC animated:YES completion:nil];
-    
-}
-
 
 /*
 #pragma mark - Navigation

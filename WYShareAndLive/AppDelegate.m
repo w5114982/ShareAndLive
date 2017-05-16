@@ -18,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //初始化视窗
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     WYTabBarViewController *tabBarVC = [[WYTabBarViewController alloc] init];
     //设置视窗的根视图为导航控制器
