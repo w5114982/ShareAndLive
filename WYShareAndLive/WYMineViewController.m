@@ -28,7 +28,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     WYLoginViewController *loginVC = [[WYLoginViewController alloc]init];
-    [self presentViewController:loginVC animated:YES completion:nil];
+    [self.navigationController pushViewController:loginVC animated:YES];
     
 }
 

@@ -26,4 +26,11 @@
 #define NEWSONEIMAGECELLSPECIAL @"OneImageCellSpecial"
 
 
+
+/*接口**/
+//登陆接口
+#define WYLOGININTERFACE @"http://rj.guxuantang.com/app/login/login.html?mobile=15021073237&password=123456&device_type=1&type=json"
+
+
+
 #endif /* PrefixHeader_pch */
