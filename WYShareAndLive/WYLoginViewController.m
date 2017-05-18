@@ -22,11 +22,13 @@
     self.title = @"登陆";
     // Do any additional setup after loading the view from its nib.
 }
+//@"http://rj.guxuantang.com/app/login/login.html?mobile=15021073237&password=123456&device_type=1&type=json"
 - (IBAction)clickToLogin:(id)sender {
- //   NSDictionary *params =
+    NSDictionary *params = @{@"mobile":self.userNameTF.text,@"password":self.passWordTF.text,@"device_type":@1,@"type":@"json"
+                             };
     
     
-  [WYNetWorkTask getWithURL:WYLOGININTERFACE withParameter:nil withHttpHeader:nil withResponseType:ResponseTypeJSON withSuccess:^(id result) {
+  [WYNetWorkTask getWithURL:WYLOGININTERFACE withParameter:params withHttpHeader:nil withResponseType:ResponseTypeJSON withSuccess:^(id result) {
       NSLog(@"result == %@",result);
   } withFail:^(NSError *error) {
       NSLog(@"error ==%@",error);

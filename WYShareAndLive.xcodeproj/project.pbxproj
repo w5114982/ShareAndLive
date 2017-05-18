@@ -385,7 +385,6 @@
 			isa = PBXGroup;
 			children = (
 				FFF686641EAF2A36002AE032 /* Controller */,
-				FFF686631EAF2A30002AE032 /* View */,
 				FFF686621EAF2A29002AE032 /* Model */,
 			);
 			name = "网易新闻";
@@ -414,6 +413,7 @@
 			children = (
 				FFF686651EAF2A6E002AE032 /* WYContainerViewController.h */,
 				FFF686661EAF2A6E002AE032 /* WYContainerViewController.m */,
+				FFF686631EAF2A30002AE032 /* View */,
 				FFF6869C1EC4408B002AE032 /* WYNewsTableViewController.h */,
 				FFF6869D1EC4408B002AE032 /* WYNewsTableViewController.m */,
 			);
