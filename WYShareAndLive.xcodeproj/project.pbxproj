@@ -22,6 +22,13 @@
 		FF2D52E81EA4615800AAD26D /* WYTitleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52E71EA4615800AAD26D /* WYTitleBarView.m */; };
 		FF2D52EC1EA4A88A00AAD26D /* WYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52EB1EA4A88A00AAD26D /* WYNavigationController.m */; };
 		FF2D52EF1EA5B3BD00AAD26D /* WYContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52EE1EA5B3BD00AAD26D /* WYContentScrollView.m */; };
+		FFCC5F811ED68DF500EE2718 /* banner1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFCC5F7B1ED68DF500EE2718 /* banner1.jpeg */; };
+		FFCC5F821ED68DF500EE2718 /* banner2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFCC5F7C1ED68DF500EE2718 /* banner2.jpeg */; };
+		FFCC5F831ED68DF500EE2718 /* banner3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFCC5F7D1ED68DF500EE2718 /* banner3.jpeg */; };
+		FFCC5F841ED68DF500EE2718 /* banner4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFCC5F7E1ED68DF500EE2718 /* banner4.jpeg */; };
+		FFCC5F851ED68DF500EE2718 /* banner5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFCC5F7F1ED68DF500EE2718 /* banner5.jpeg */; };
+		FFCC5F861ED68DF500EE2718 /* timg副本.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFCC5F801ED68DF500EE2718 /* timg副本.jpeg */; };
+		FFCC5F8C1ED6C22800EE2718 /* WYButtonsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCC5F8B1ED6C22800EE2718 /* WYButtonsTableViewCell.m */; };
 		FFEBA2D11ECAD10800BAF8EF /* 02-欢迎页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFEBA2D01ECAD10800BAF8EF /* 02-欢迎页.jpg */; };
 		FFEBA2DC1ECAE1E900BAF8EF /* WYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEBA2DA1ECAE1E900BAF8EF /* WYLoginViewController.m */; };
 		FFEBA2DD1ECAE1E900BAF8EF /* WYLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFEBA2DB1ECAE1E900BAF8EF /* WYLoginViewController.xib */; };
@@ -96,6 +103,14 @@
 		FF2D52EB1EA4A88A00AAD26D /* WYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNavigationController.m; sourceTree = "<group>"; };
 		FF2D52ED1EA5B3BD00AAD26D /* WYContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYContentScrollView.h; sourceTree = "<group>"; };
 		FF2D52EE1EA5B3BD00AAD26D /* WYContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYContentScrollView.m; sourceTree = "<group>"; };
+		FFCC5F7B1ED68DF500EE2718 /* banner1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner1.jpeg; sourceTree = "<group>"; };
+		FFCC5F7C1ED68DF500EE2718 /* banner2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner2.jpeg; sourceTree = "<group>"; };
+		FFCC5F7D1ED68DF500EE2718 /* banner3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner3.jpeg; sourceTree = "<group>"; };
+		FFCC5F7E1ED68DF500EE2718 /* banner4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner4.jpeg; sourceTree = "<group>"; };
+		FFCC5F7F1ED68DF500EE2718 /* banner5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner5.jpeg; sourceTree = "<group>"; };
+		FFCC5F801ED68DF500EE2718 /* timg副本.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg副本.jpeg"; sourceTree = "<group>"; };
+		FFCC5F8A1ED6C22800EE2718 /* WYButtonsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYButtonsTableViewCell.h; sourceTree = "<group>"; };
+		FFCC5F8B1ED6C22800EE2718 /* WYButtonsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYButtonsTableViewCell.m; sourceTree = "<group>"; };
 		FFEBA2D01ECAD10800BAF8EF /* 02-欢迎页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02-欢迎页.jpg"; sourceTree = "<group>"; };
 		FFEBA2D91ECAE1E900BAF8EF /* WYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLoginViewController.h; sourceTree = "<group>"; };
 		FFEBA2DA1ECAE1E900BAF8EF /* WYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLoginViewController.m; sourceTree = "<group>"; };
@@ -188,6 +203,12 @@
 		FF2D52511E9F179400AAD26D = {
 			isa = PBXGroup;
 			children = (
+				FFCC5F7B1ED68DF500EE2718 /* banner1.jpeg */,
+				FFCC5F7C1ED68DF500EE2718 /* banner2.jpeg */,
+				FFCC5F7D1ED68DF500EE2718 /* banner3.jpeg */,
+				FFCC5F7E1ED68DF500EE2718 /* banner4.jpeg */,
+				FFCC5F7F1ED68DF500EE2718 /* banner5.jpeg */,
+				FFCC5F801ED68DF500EE2718 /* timg副本.jpeg */,
 				FFF686831EB831DE002AE032 /* AllCell */,
 				FF2D52E91EA4A86600AAD26D /* base */,
 				FF2D525C1E9F179400AAD26D /* WYShareAndLive */,
@@ -261,8 +282,9 @@
 		FF2D52D21EA449F700AAD26D /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				FF2D52CF1EA4478B00AAD26D /* WYHomeViewController.h */,
-				FF2D52D01EA4478B00AAD26D /* WYHomeViewController.m */,
+				FFCC5F891ED6C04C00EE2718 /* Controller */,
+				FFCC5F881ED6C04400EE2718 /* View */,
+				FFCC5F871ED6C03A00EE2718 /* Model */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -345,6 +367,31 @@
 				FFF686851EB83293002AE032 /* WYBaseTableViewCell.m */,
 			);
 			name = base;
+			sourceTree = "<group>";
+		};
+		FFCC5F871ED6C03A00EE2718 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FFCC5F881ED6C04400EE2718 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFCC5F8A1ED6C22800EE2718 /* WYButtonsTableViewCell.h */,
+				FFCC5F8B1ED6C22800EE2718 /* WYButtonsTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FFCC5F891ED6C04C00EE2718 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF2D52CF1EA4478B00AAD26D /* WYHomeViewController.h */,
+				FF2D52D01EA4478B00AAD26D /* WYHomeViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		FFEBA2D21ECAD92400BAF8EF /* Login */ = {
@@ -579,10 +626,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFCC5F811ED68DF500EE2718 /* banner1.jpeg in Resources */,
 				FFEBA2D11ECAD10800BAF8EF /* 02-欢迎页.jpg in Resources */,
+				FFCC5F831ED68DF500EE2718 /* banner3.jpeg in Resources */,
+				FFCC5F841ED68DF500EE2718 /* banner4.jpeg in Resources */,
 				FF2D526D1E9F179400AAD26D /* LaunchScreen.storyboard in Resources */,
+				FFCC5F861ED68DF500EE2718 /* timg副本.jpeg in Resources */,
 				FFEBA2DD1ECAE1E900BAF8EF /* WYLoginViewController.xib in Resources */,
 				FF2D526A1E9F179400AAD26D /* Assets.xcassets in Resources */,
+				FFCC5F821ED68DF500EE2718 /* banner2.jpeg in Resources */,
+				FFCC5F851ED68DF500EE2718 /* banner5.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,6 +733,7 @@
 				FFF6868C1EB8528C002AE032 /* WYImagesTableViewCell.m in Sources */,
 				FFF686671EAF2A6E002AE032 /* WYContainerViewController.m in Sources */,
 				FFF686781EAF3B59002AE032 /* FMResultSet.m in Sources */,
+				FFCC5F8C1ED6C22800EE2718 /* WYButtonsTableViewCell.m in Sources */,
 				FF2D52D91EA4529200AAD26D /* WYLiveViewController.m in Sources */,
 				FFF6868F1EB852BD002AE032 /* WYOneImageTableViewCell.m in Sources */,
 				FF2D525F1E9F179400AAD26D /* main.m in Sources */,
