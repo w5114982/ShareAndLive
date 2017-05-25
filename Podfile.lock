@@ -17,9 +17,11 @@ PODS:
   - Masonry (1.0.2)
   - MJRefresh (3.1.12)
   - RDVTabBarController (1.1.9)
-  - SDWebImage (3.7.6):
-    - SDWebImage/Core (= 3.7.6)
-  - SDWebImage/Core (3.7.6)
+  - SDCycleScrollView (1.66):
+    - SDWebImage (~> 4.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
   - UMengUShare (6.4.3):
     - UMengUShare/Core (= 6.4.3)
     - UMengUShare/Network (= 6.4.3)
@@ -143,7 +145,8 @@ DEPENDENCIES:
   - Masonry (~> 1.0.2)
   - MJRefresh (~> 3.1.12)
   - RDVTabBarController (~> 1.1.9)
-  - SDWebImage (~> 3.7.5)
+  - SDCycleScrollView (~> 1.66)
+  - SDWebImage (~> 4.0.0)
   - UMengUShare (~> 6.4.2)
 
 SPEC CHECKSUMS:
@@ -151,9 +154,10 @@ SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
-  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SDCycleScrollView: e3ade90e9b3159bec04330b208fbfd81c3f3b671
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   UMengUShare: d39cb682598df87ebdd3c055d03d00eb0102d42c
 
-PODFILE CHECKSUM: bcaf9b96ce4a2c18b176fd5e0cb3463c8b87ccb8
+PODFILE CHECKSUM: f43c4510b500cf1bf18566c305e8838f68c8b43b
 
 COCOAPODS: 1.2.1

@@ -1,0 +1,1 @@
+../../../UMengUShare/UShareSDK/SocialLibraries/VKontakte/VKPermissions.h
