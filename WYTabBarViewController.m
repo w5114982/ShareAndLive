@@ -66,7 +66,7 @@
     homeNavVC.title = @"主页";
     liveNavVC.title = @"直播";
     videoNavVC.title = @"视频";
-    newsNavVC.title = @"头条新闻";
+    newsNavVC.title = @"头条";
     mineNavVC.title = @"我的";
 
        [self addChildViewController:homeNavVC];

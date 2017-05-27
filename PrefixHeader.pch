@@ -24,7 +24,8 @@
 #define NEWSONEBIGIMAGECELL @"BigImageCell"
 #define NEWSIMAGESCELL @"ImagesCell"
 #define NEWSONEIMAGECELLSPECIAL @"OneImageCellSpecial"
-
+//颜色
+#define NAVIGATIONBARCOLOR [UIColor colorWithRed:252.0/255.0 green:13/255.0 blue:27/255.0 alpha:1.0]
 
 
 /*接口**/
