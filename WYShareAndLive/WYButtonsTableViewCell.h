@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface WYButtonsTableViewCell : UITableViewCell
-- (void)
+
 @end

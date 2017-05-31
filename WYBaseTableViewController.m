@@ -22,9 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.tableView registerClass:[WYImagesTableViewCell class] forCellReuseIdentifier:NEWSIMAGESCELL];
-    [self.tableView registerClass:[WYOneImageTableViewCell class] forCellReuseIdentifier:NEWSONEIMAGECELL];
-    [self.tableView registerClass:[WYOneBigImageTableViewCell class] forCellReuseIdentifier:NEWSONEBIGIMAGECELL];
+
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

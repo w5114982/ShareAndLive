@@ -24,7 +24,7 @@
 
 }
 - (void)createUI{
-    CGFloat btnX = self.frame.
+
     
     
 }

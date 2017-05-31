@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"股轩堂";
     self.view.backgroundColor =[UIColor yellowColor];
+   
+    [self creatBtns];
     [self createTableView];
    // [self createUI];
 
@@ -34,7 +37,20 @@
 
     
 }
+//创建左右按钮
+-(void)creatBtns{
+    
+    UIImage *image = [UIImage imageNamed:@"left"];
+    image = [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithImage:image style:0 target:self action:@selector(getNews)];
+    UIButton *rightBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 40, 40)];
+    [rightBtn setImage:[UIImage imageNamed:@"search"] forState:UIControlStateNormal];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:rightBtn];
+    [rightBtn addTarget:self action:@selector(changeChannel:) forControlEvents:UIControlEventTouchUpInside];
 
+    
+    
+}
 
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{

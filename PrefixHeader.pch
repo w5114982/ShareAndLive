@@ -13,17 +13,10 @@
 #define UISCREENHEIGHT ([UIScreen mainScreen].bounds.size.height)
 #define UISCREENWIDTH ([UIScreen mainScreen].bounds.size.width)
 
-/*Cell高度**/
-#define ONEIMAGECELLHEIGHT 80
-#define ONEBIGIMAGECELLHEIGHT 250
-#define IMAGESCELLHEIGHT 130
 
 
-/*Cell标识符**/
-#define NEWSONEIMAGECELL @"OneImageCell"
-#define NEWSONEBIGIMAGECELL @"BigImageCell"
-#define NEWSIMAGESCELL @"ImagesCell"
-#define NEWSONEIMAGECELLSPECIAL @"OneImageCellSpecial"
+
+
 //颜色
 #define NAVIGATIONBARCOLOR [UIColor colorWithRed:252.0/255.0 green:13/255.0 blue:27/255.0 alpha:1.0]
 
