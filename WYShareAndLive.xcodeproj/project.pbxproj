@@ -22,13 +22,19 @@
 		FF2D52E81EA4615800AAD26D /* WYTitleBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52E71EA4615800AAD26D /* WYTitleBarView.m */; };
 		FF2D52EC1EA4A88A00AAD26D /* WYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52EB1EA4A88A00AAD26D /* WYNavigationController.m */; };
 		FF2D52EF1EA5B3BD00AAD26D /* WYContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52EE1EA5B3BD00AAD26D /* WYContentScrollView.m */; };
+		FF6F68991EDE756F0089652B /* WYNewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6F68981EDE756F0089652B /* WYNewsTableViewController.m */; };
+		FF6F689C1EDE75C50089652B /* WYChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6F689B1EDE75C50089652B /* WYChannelViewController.m */; };
 		FFCC5F811ED68DF500EE2718 /* banner1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFCC5F7B1ED68DF500EE2718 /* banner1.jpeg */; };
 		FFCC5F821ED68DF500EE2718 /* banner2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFCC5F7C1ED68DF500EE2718 /* banner2.jpeg */; };
 		FFCC5F831ED68DF500EE2718 /* banner3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFCC5F7D1ED68DF500EE2718 /* banner3.jpeg */; };
 		FFCC5F841ED68DF500EE2718 /* banner4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFCC5F7E1ED68DF500EE2718 /* banner4.jpeg */; };
 		FFCC5F851ED68DF500EE2718 /* banner5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFCC5F7F1ED68DF500EE2718 /* banner5.jpeg */; };
 		FFCC5F861ED68DF500EE2718 /* timg副本.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFCC5F801ED68DF500EE2718 /* timg副本.jpeg */; };
-		FFCC5F8C1ED6C22800EE2718 /* WYButtonsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCC5F8B1ED6C22800EE2718 /* WYButtonsTableViewCell.m */; };
+		FFE567681EDE95C80065794A /* WYContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE567671EDE95C80065794A /* WYContainerViewController.m */; };
+		FFE5676A1EDE96F60065794A /* DefaultURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFE567691EDE96F60065794A /* DefaultURLs.plist */; };
+		FFE5676C1EDE9BF10065794A /* NewsURLs.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFE5676B1EDE9BF10065794A /* NewsURLs.plist */; };
+		FFE5676F1EDFB8820065794A /* WYButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE5676E1EDFB8820065794A /* WYButtonsView.m */; };
+		FFE567721EDFE93D0065794A /* WYOneBigImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE567711EDFE93D0065794A /* WYOneBigImageTableViewCell.m */; };
 		FFEBA2D11ECAD10800BAF8EF /* 02-欢迎页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFEBA2D01ECAD10800BAF8EF /* 02-欢迎页.jpg */; };
 		FFEBA2DC1ECAE1E900BAF8EF /* WYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEBA2DA1ECAE1E900BAF8EF /* WYLoginViewController.m */; };
 		FFEBA2DD1ECAE1E900BAF8EF /* WYLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFEBA2DB1ECAE1E900BAF8EF /* WYLoginViewController.xib */; };
@@ -96,14 +102,24 @@
 		FF2D52EB1EA4A88A00AAD26D /* WYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNavigationController.m; sourceTree = "<group>"; };
 		FF2D52ED1EA5B3BD00AAD26D /* WYContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYContentScrollView.h; sourceTree = "<group>"; };
 		FF2D52EE1EA5B3BD00AAD26D /* WYContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYContentScrollView.m; sourceTree = "<group>"; };
+		FF6F68971EDE756F0089652B /* WYNewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYNewsTableViewController.h; sourceTree = "<group>"; };
+		FF6F68981EDE756F0089652B /* WYNewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNewsTableViewController.m; sourceTree = "<group>"; };
+		FF6F689A1EDE75C50089652B /* WYChannelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYChannelViewController.h; sourceTree = "<group>"; };
+		FF6F689B1EDE75C50089652B /* WYChannelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYChannelViewController.m; sourceTree = "<group>"; };
 		FFCC5F7B1ED68DF500EE2718 /* banner1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner1.jpeg; sourceTree = "<group>"; };
 		FFCC5F7C1ED68DF500EE2718 /* banner2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner2.jpeg; sourceTree = "<group>"; };
 		FFCC5F7D1ED68DF500EE2718 /* banner3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner3.jpeg; sourceTree = "<group>"; };
 		FFCC5F7E1ED68DF500EE2718 /* banner4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner4.jpeg; sourceTree = "<group>"; };
 		FFCC5F7F1ED68DF500EE2718 /* banner5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner5.jpeg; sourceTree = "<group>"; };
 		FFCC5F801ED68DF500EE2718 /* timg副本.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg副本.jpeg"; sourceTree = "<group>"; };
-		FFCC5F8A1ED6C22800EE2718 /* WYButtonsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYButtonsTableViewCell.h; sourceTree = "<group>"; };
-		FFCC5F8B1ED6C22800EE2718 /* WYButtonsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYButtonsTableViewCell.m; sourceTree = "<group>"; };
+		FFE567661EDE95C80065794A /* WYContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYContainerViewController.h; sourceTree = "<group>"; };
+		FFE567671EDE95C80065794A /* WYContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYContainerViewController.m; sourceTree = "<group>"; };
+		FFE567691EDE96F60065794A /* DefaultURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultURLs.plist; sourceTree = "<group>"; };
+		FFE5676B1EDE9BF10065794A /* NewsURLs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewsURLs.plist; sourceTree = "<group>"; };
+		FFE5676D1EDFB8820065794A /* WYButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYButtonsView.h; sourceTree = "<group>"; };
+		FFE5676E1EDFB8820065794A /* WYButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYButtonsView.m; sourceTree = "<group>"; };
+		FFE567701EDFE93D0065794A /* WYOneBigImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYOneBigImageTableViewCell.h; sourceTree = "<group>"; };
+		FFE567711EDFE93D0065794A /* WYOneBigImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYOneBigImageTableViewCell.m; sourceTree = "<group>"; };
 		FFEBA2D01ECAD10800BAF8EF /* 02-欢迎页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02-欢迎页.jpg"; sourceTree = "<group>"; };
 		FFEBA2D91ECAE1E900BAF8EF /* WYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLoginViewController.h; sourceTree = "<group>"; };
 		FFEBA2DA1ECAE1E900BAF8EF /* WYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLoginViewController.m; sourceTree = "<group>"; };
@@ -289,6 +305,8 @@
 		FF2D52D51EA4522800AAD26D /* News */ = {
 			isa = PBXGroup;
 			children = (
+				FFE567691EDE96F60065794A /* DefaultURLs.plist */,
+				FFE5676B1EDE9BF10065794A /* NewsURLs.plist */,
 				FF2D52E51EA460CF00AAD26D /* Controller */,
 				FF2D52E41EA460C700AAD26D /* View */,
 				FF2D52E31EA460BD00AAD26D /* Model */,
@@ -330,6 +348,12 @@
 			children = (
 				FF2D52DD1EA4541900AAD26D /* WYNewsViewController.h */,
 				FF2D52DE1EA4541900AAD26D /* WYNewsViewController.m */,
+				FFE567661EDE95C80065794A /* WYContainerViewController.h */,
+				FFE567671EDE95C80065794A /* WYContainerViewController.m */,
+				FF6F68971EDE756F0089652B /* WYNewsTableViewController.h */,
+				FF6F68981EDE756F0089652B /* WYNewsTableViewController.m */,
+				FF6F689A1EDE75C50089652B /* WYChannelViewController.h */,
+				FF6F689B1EDE75C50089652B /* WYChannelViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -359,8 +383,8 @@
 		FFCC5F881ED6C04400EE2718 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FFCC5F8A1ED6C22800EE2718 /* WYButtonsTableViewCell.h */,
-				FFCC5F8B1ED6C22800EE2718 /* WYButtonsTableViewCell.m */,
+				FFE5676D1EDFB8820065794A /* WYButtonsView.h */,
+				FFE5676E1EDFB8820065794A /* WYButtonsView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -443,6 +467,8 @@
 		FFF686831EB831DE002AE032 /* AllCell */ = {
 			isa = PBXGroup;
 			children = (
+				FFE567701EDFE93D0065794A /* WYOneBigImageTableViewCell.h */,
+				FFE567711EDFE93D0065794A /* WYOneBigImageTableViewCell.m */,
 			);
 			name = AllCell;
 			sourceTree = "<group>";
@@ -567,8 +593,10 @@
 				FFCC5F861ED68DF500EE2718 /* timg副本.jpeg in Resources */,
 				FFEBA2DD1ECAE1E900BAF8EF /* WYLoginViewController.xib in Resources */,
 				FF2D526A1E9F179400AAD26D /* Assets.xcassets in Resources */,
+				FFE5676C1EDE9BF10065794A /* NewsURLs.plist in Resources */,
 				FFCC5F821ED68DF500EE2718 /* banner2.jpeg in Resources */,
 				FFCC5F851ED68DF500EE2718 /* banner5.jpeg in Resources */,
+				FFE5676A1EDE96F60065794A /* DefaultURLs.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,8 +670,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFF686921EB854B5002AE032 /* WYTools.m in Sources */,
+				FF6F689C1EDE75C50089652B /* WYChannelViewController.m in Sources */,
 				FFF686861EB83293002AE032 /* WYBaseTableViewCell.m in Sources */,
 				FF2D52DC1EA4529F00AAD26D /* WYVideoViewController.m in Sources */,
+				FFE567681EDE95C80065794A /* WYContainerViewController.m in Sources */,
 				FF2D52EF1EA5B3BD00AAD26D /* WYContentScrollView.m in Sources */,
 				FFF686741EAF3B59002AE032 /* FMDatabase.m in Sources */,
 				FF2D52621E9F179400AAD26D /* AppDelegate.m in Sources */,
@@ -655,13 +685,15 @@
 				FFF686761EAF3B59002AE032 /* FMDatabasePool.m in Sources */,
 				FF2D52DF1EA4541900AAD26D /* WYNewsViewController.m in Sources */,
 				FFF6869B1EC1BE57002AE032 /* WYNetWorkTask.m in Sources */,
+				FF6F68991EDE756F0089652B /* WYNewsTableViewController.m in Sources */,
+				FFE567721EDFE93D0065794A /* WYOneBigImageTableViewCell.m in Sources */,
 				FFEBA2DC1ECAE1E900BAF8EF /* WYLoginViewController.m in Sources */,
 				FFF686771EAF3B59002AE032 /* FMDatabaseQueue.m in Sources */,
 				FF2D52E21EA454B100AAD26D /* WYMineViewController.m in Sources */,
 				FF2D52E81EA4615800AAD26D /* WYTitleBarView.m in Sources */,
 				FFF686781EAF3B59002AE032 /* FMResultSet.m in Sources */,
-				FFCC5F8C1ED6C22800EE2718 /* WYButtonsTableViewCell.m in Sources */,
 				FF2D52D91EA4529200AAD26D /* WYLiveViewController.m in Sources */,
+				FFE5676F1EDFB8820065794A /* WYButtonsView.m in Sources */,
 				FF2D525F1E9F179400AAD26D /* main.m in Sources */,
 				FFF6867C1EAF3CF1002AE032 /* WYSqliteFmdbTool.m in Sources */,
 				FF2D52EC1EA4A88A00AAD26D /* WYNavigationController.m in Sources */,

@@ -30,8 +30,11 @@
     
   [WYNetWorkTask getWithURL:WYLOGININTERFACE withParameter:params withHttpHeader:nil withResponseType:ResponseTypeJSON withSuccess:^(id result) {
       NSLog(@"result == %@",result);
+      [SVProgressHUD showSuccessWithStatus:@"登陆成功"];
+      
   } withFail:^(NSError *error) {
       NSLog(@"error ==%@",error);
+      [SVProgressHUD showErrorWithStatus:@"登陆失败"];
   }];
 }
 

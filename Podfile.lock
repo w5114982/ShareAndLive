@@ -22,122 +22,123 @@ PODS:
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
-  - UMengUShare (6.4.3):
-    - UMengUShare/Core (= 6.4.3)
-    - UMengUShare/Network (= 6.4.3)
-    - UMengUShare/Plugin (= 6.4.3)
-    - UMengUShare/Social (= 6.4.3)
-    - UMengUShare/UI (= 6.4.3)
-  - UMengUShare/Core (6.4.3):
+  - SVProgressHUD (2.1.2)
+  - UMengUShare (6.4.4):
+    - UMengUShare/Core (= 6.4.4)
+    - UMengUShare/Network (= 6.4.4)
+    - UMengUShare/Plugin (= 6.4.4)
+    - UMengUShare/Social (= 6.4.4)
+    - UMengUShare/UI (= 6.4.4)
+  - UMengUShare/Core (6.4.4):
     - UMengUShare/Network
-  - UMengUShare/Network (6.4.3)
-  - UMengUShare/Plugin (6.4.3):
+  - UMengUShare/Network (6.4.4)
+  - UMengUShare/Plugin (6.4.4):
     - UMengUShare/Core
-    - UMengUShare/Plugin/IDFA (= 6.4.3)
-  - UMengUShare/Plugin/IDFA (6.4.3):
+    - UMengUShare/Plugin/IDFA (= 6.4.4)
+  - UMengUShare/Plugin/IDFA (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social (6.4.3):
+  - UMengUShare/Social (6.4.4):
     - UMengUShare/Core
-    - UMengUShare/Social/AlipayShare (= 6.4.3)
-    - UMengUShare/Social/DingDing (= 6.4.3)
-    - UMengUShare/Social/Douban (= 6.4.3)
-    - UMengUShare/Social/DropBox (= 6.4.3)
-    - UMengUShare/Social/Email (= 6.4.3)
-    - UMengUShare/Social/EverNote (= 6.4.3)
-    - UMengUShare/Social/Facebook (= 6.4.3)
-    - UMengUShare/Social/FaceBookMessenger (= 6.4.3)
-    - UMengUShare/Social/Flickr (= 6.4.3)
-    - UMengUShare/Social/GooglePlus (= 6.4.3)
-    - UMengUShare/Social/Instagram (= 6.4.3)
-    - UMengUShare/Social/Kakao (= 6.4.3)
-    - UMengUShare/Social/LaiWang (= 6.4.3)
-    - UMengUShare/Social/Line (= 6.4.3)
-    - UMengUShare/Social/Linkedin (= 6.4.3)
-    - UMengUShare/Social/Pinterest (= 6.4.3)
-    - UMengUShare/Social/Pocket (= 6.4.3)
-    - UMengUShare/Social/QQ (= 6.4.3)
-    - UMengUShare/Social/ReducedQQ (= 6.4.3)
-    - UMengUShare/Social/ReducedSina (= 6.4.3)
-    - UMengUShare/Social/ReducedWeChat (= 6.4.3)
-    - UMengUShare/Social/Renren (= 6.4.3)
-    - UMengUShare/Social/Sina (= 6.4.3)
-    - UMengUShare/Social/SMS (= 6.4.3)
-    - UMengUShare/Social/TencentWeibo (= 6.4.3)
-    - UMengUShare/Social/Tumblr (= 6.4.3)
-    - UMengUShare/Social/Twitter (= 6.4.3)
-    - UMengUShare/Social/VKontakte (= 6.4.3)
-    - UMengUShare/Social/WeChat (= 6.4.3)
-    - UMengUShare/Social/WhatsApp (= 6.4.3)
-    - UMengUShare/Social/YiXin (= 6.4.3)
-    - UMengUShare/Social/YouDao (= 6.4.3)
-  - UMengUShare/Social/AlipayShare (6.4.3):
+    - UMengUShare/Social/AlipayShare (= 6.4.4)
+    - UMengUShare/Social/DingDing (= 6.4.4)
+    - UMengUShare/Social/Douban (= 6.4.4)
+    - UMengUShare/Social/DropBox (= 6.4.4)
+    - UMengUShare/Social/Email (= 6.4.4)
+    - UMengUShare/Social/EverNote (= 6.4.4)
+    - UMengUShare/Social/Facebook (= 6.4.4)
+    - UMengUShare/Social/FaceBookMessenger (= 6.4.4)
+    - UMengUShare/Social/Flickr (= 6.4.4)
+    - UMengUShare/Social/GooglePlus (= 6.4.4)
+    - UMengUShare/Social/Instagram (= 6.4.4)
+    - UMengUShare/Social/Kakao (= 6.4.4)
+    - UMengUShare/Social/LaiWang (= 6.4.4)
+    - UMengUShare/Social/Line (= 6.4.4)
+    - UMengUShare/Social/Linkedin (= 6.4.4)
+    - UMengUShare/Social/Pinterest (= 6.4.4)
+    - UMengUShare/Social/Pocket (= 6.4.4)
+    - UMengUShare/Social/QQ (= 6.4.4)
+    - UMengUShare/Social/ReducedQQ (= 6.4.4)
+    - UMengUShare/Social/ReducedSina (= 6.4.4)
+    - UMengUShare/Social/ReducedWeChat (= 6.4.4)
+    - UMengUShare/Social/Renren (= 6.4.4)
+    - UMengUShare/Social/Sina (= 6.4.4)
+    - UMengUShare/Social/SMS (= 6.4.4)
+    - UMengUShare/Social/TencentWeibo (= 6.4.4)
+    - UMengUShare/Social/Tumblr (= 6.4.4)
+    - UMengUShare/Social/Twitter (= 6.4.4)
+    - UMengUShare/Social/VKontakte (= 6.4.4)
+    - UMengUShare/Social/WeChat (= 6.4.4)
+    - UMengUShare/Social/WhatsApp (= 6.4.4)
+    - UMengUShare/Social/YiXin (= 6.4.4)
+    - UMengUShare/Social/YouDao (= 6.4.4)
+  - UMengUShare/Social/AlipayShare (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/DingDing (6.4.3):
+  - UMengUShare/Social/DingDing (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/Douban (6.4.3):
+  - UMengUShare/Social/Douban (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/DropBox (6.4.3):
+  - UMengUShare/Social/DropBox (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/Email (6.4.3):
+  - UMengUShare/Social/Email (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/EverNote (6.4.3):
+  - UMengUShare/Social/EverNote (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/Facebook (6.4.3):
+  - UMengUShare/Social/Facebook (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/FaceBookMessenger (6.4.3):
+  - UMengUShare/Social/FaceBookMessenger (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/Flickr (6.4.3):
+  - UMengUShare/Social/Flickr (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/GooglePlus (6.4.3):
+  - UMengUShare/Social/GooglePlus (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/Instagram (6.4.3):
+  - UMengUShare/Social/Instagram (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/Kakao (6.4.3):
+  - UMengUShare/Social/Kakao (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/LaiWang (6.4.3):
+  - UMengUShare/Social/LaiWang (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/Line (6.4.3):
+  - UMengUShare/Social/Line (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/Linkedin (6.4.3):
+  - UMengUShare/Social/Linkedin (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/Pinterest (6.4.3):
+  - UMengUShare/Social/Pinterest (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/Pocket (6.4.3):
+  - UMengUShare/Social/Pocket (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/QQ (6.4.3):
+  - UMengUShare/Social/QQ (6.4.4):
     - UMengUShare/Core
     - UMengUShare/Social/ReducedQQ
-  - UMengUShare/Social/ReducedQQ (6.4.3):
+  - UMengUShare/Social/ReducedQQ (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/ReducedSina (6.4.3):
+  - UMengUShare/Social/ReducedSina (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/ReducedWeChat (6.4.3):
+  - UMengUShare/Social/ReducedWeChat (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/Renren (6.4.3):
+  - UMengUShare/Social/Renren (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/Sina (6.4.3):
+  - UMengUShare/Social/Sina (6.4.4):
     - UMengUShare/Core
     - UMengUShare/Social/ReducedSina
-  - UMengUShare/Social/SMS (6.4.3):
+  - UMengUShare/Social/SMS (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/TencentWeibo (6.4.3):
+  - UMengUShare/Social/TencentWeibo (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/Tumblr (6.4.3):
+  - UMengUShare/Social/Tumblr (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/Twitter (6.4.3):
+  - UMengUShare/Social/Twitter (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/VKontakte (6.4.3):
+  - UMengUShare/Social/VKontakte (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/WeChat (6.4.3):
+  - UMengUShare/Social/WeChat (6.4.4):
     - UMengUShare/Core
     - UMengUShare/Social/ReducedWeChat
-  - UMengUShare/Social/WhatsApp (6.4.3):
+  - UMengUShare/Social/WhatsApp (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/YiXin (6.4.3):
+  - UMengUShare/Social/YiXin (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/Social/YouDao (6.4.3):
+  - UMengUShare/Social/YouDao (6.4.4):
     - UMengUShare/Core
-  - UMengUShare/UI (6.4.3):
+  - UMengUShare/UI (6.4.4):
     - UMengUShare/Core
 
 DEPENDENCIES:
@@ -147,6 +148,7 @@ DEPENDENCIES:
   - RDVTabBarController (~> 1.1.9)
   - SDCycleScrollView (~> 1.66)
   - SDWebImage (~> 4.0.0)
+  - SVProgressHUD (~> 2.1.2)
   - UMengUShare (~> 6.4.2)
 
 SPEC CHECKSUMS:
@@ -156,8 +158,9 @@ SPEC CHECKSUMS:
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
   SDCycleScrollView: e3ade90e9b3159bec04330b208fbfd81c3f3b671
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
-  UMengUShare: d39cb682598df87ebdd3c055d03d00eb0102d42c
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  UMengUShare: cd54ae52958426b79aa9193a7b02058d6a6d9aa0
 
-PODFILE CHECKSUM: f43c4510b500cf1bf18566c305e8838f68c8b43b
+PODFILE CHECKSUM: 61864ffa27f72dcc0a02add981dac8dffb0c0f93
 
 COCOAPODS: 1.2.1

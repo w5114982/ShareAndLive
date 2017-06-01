@@ -7,9 +7,11 @@
 //
 
 #import "WYBaseTableViewController.h"
+/*
 #import "WYImagesTableViewCell.h"
 #import "WYOneImageTableViewCell.h"
 #import "WYOneBigImageTableViewCell.h"
+ */
 #import <RDVTabBar.h>
 #import <RDVTabBarItem.h>
 #import <RDVTabBarController.h>

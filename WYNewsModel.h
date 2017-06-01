@@ -24,4 +24,5 @@
 //图片的url
 @property (nonatomic , copy)NSString  *fm_pic;
 
++ (instancetype)newsModelWithDic:(NSDictionary *)dic;
 @end

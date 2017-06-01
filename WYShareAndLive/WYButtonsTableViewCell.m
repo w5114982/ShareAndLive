@@ -24,7 +24,18 @@
 
 }
 - (void)createUI{
-
+    CGFloat btnWeight = self.frame.size.width/4;
+    CGFloat btnHeight = self.frame.size.height/2;
+    for (int i = 0; i<4; i++) {
+        for (int j =0; j<2; j++) {
+            UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+            btn.frame = CGRectMake(i *btnWeight, j*btnHeight, btnWeight, btnHeight);
+            [btn setTitle:@"按钮" forState:UIControlStateNormal];
+            [self addSubview:btn];
+            
+            
+        }
+    }
     
     
 }

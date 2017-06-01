@@ -8,8 +8,11 @@
 
 #import "WYHomeViewController.h"
 #import <SDCycleScrollView.h>
+#import "WYButtonsView.h"
+#import "WYNetWorkTask.h"
 @interface WYHomeViewController ()
-
+@property (nonatomic,copy)NSDictionary *responseDict;
+@property (nonatomic ,copy)NSMutableArray *bannerArray;
 @end
 
 @implementation WYHomeViewController
@@ -18,11 +21,15 @@
     [super viewDidLoad];
     self.title = @"股轩堂";
     self.view.backgroundColor =[UIColor yellowColor];
-   
+   //创建左右buttonitem
     [self creatBtns];
+    //创建tableVIew
     [self createTableView];
-   // [self createUI];
-
+  //载入数据
+    [self loadData];
+    // [self createUI];
+   
+    
     
     // Do any additional setup after loading the view.
 }
@@ -30,13 +37,41 @@
 - (void)createTableView{
  self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, UISCREENWIDTH, UISCREENHEIGHT) style:UITableViewStylePlain];
     
-    SDCycleScrollView *bannerView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, UISCREENWIDTH, UISCREENWIDTH*1/3) imageNamesGroup:@[@"banner1.jpeg",@"banner2.jpeg",@"banner3.jpeg",@"banner4.jpeg",@"banner5.jpeg"]];
+    
+    SDCycleScrollView *bannerView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, UISCREENWIDTH, UISCREENWIDTH*1/3) imageNamesGroup:@[@"http://resources.guxuantang.com/uppic/files/2017/0516/1494924735954.jpeg"]];
     self.automaticallyAdjustsScrollViewInsets = NO;
-    self.tableView.tableHeaderView =bannerView;
     
+    
+    UIView * headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, UISCREENWIDTH, UISCREENWIDTH/3+200)];
+    [headerView addSubview:bannerView];
+    headerView.backgroundColor = [UIColor blueColor];
+   
+    
+    WYButtonsView * buttonsView = [[WYButtonsView alloc]initWithFrame:CGRectMake(0, UISCREENWIDTH/3, UISCREENWIDTH, 200)];
+    buttonsView.backgroundColor = [UIColor redColor];
+    [headerView addSubview:buttonsView];
 
-    
+ self.tableView.tableHeaderView =headerView;
 }
+//加载数据
+- (void)loadData{
+    [WYNetWorkTask getWithURL:WYHOMEINTERFACE withParameter:nil withHttpHeader:nil withResponseType:ResponseTypeJSON withSuccess:^(id result) {
+        self.responseDict = result;
+       NSArray *temp =[[result valueForKey:@"data"] valueForKey:@"ad"];
+        for (int i = 0; i<temp.count; i++) {
+            NSString *imgUrl = [temp[i] valueForKey:@"picture"];
+            [self.bannerArray addObject:imgUrl];
+        }
+      
+        NSLog(@"%@",[[result valueForKey:@"data"] valueForKey:@"ad"]);
+        
+    } withFail:^(NSError *error) {
+        NSLog(@"error == %@",error);
+    }];
+}
+
+
+
 //创建左右按钮
 -(void)creatBtns{
     

@@ -10,7 +10,7 @@
 #import "WYHomeViewController.h"
 #import "WYLiveViewController.h"
 #import "WYVideoViewController.h"
-#import "WYNewsViewController.h"
+#import "WYContainerViewController.h"
 #import "WYMineViewController.h"
 #import "WYNavigationController.h"
 @interface WYTabBarViewController ()
@@ -35,7 +35,7 @@
     WYVideoViewController * videoVC = [[WYVideoViewController alloc] init];
     
     //创建头条界面
-    WYNewsViewController *newsVC  =[[WYNewsViewController alloc] init];
+    WYContainerViewController *newsVC  =[[WYContainerViewController alloc] init];
     //创建我的页面
     WYMineViewController *mineVC = [[WYMineViewController alloc] init];
     //设置导航栏(1)

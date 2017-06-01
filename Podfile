@@ -10,4 +10,5 @@ pod 'AFNetworking', '~> 3.0'
   pod 'UMengUShare', '~> 6.4.2'
    pod 'RDVTabBarController', '~> 1.1.9'
    pod 'MJRefresh', '~> 3.1.12'
+   pod 'SVProgressHUD', '~> 2.1.2'
 end

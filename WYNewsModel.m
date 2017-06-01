@@ -9,5 +9,17 @@
 #import "WYNewsModel.h"
 
 @implementation WYNewsModel
++ (instancetype)newsModelWithDic:(NSDictionary *)dic{
+    WYNewsModel *model = [WYNewsModel new];
+    [model setValuesForKeysWithDictionary:dic];
+    
+    return model;
+}
 
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key
+{
+    if ([key isEqual:@"id"]) {
+        self.ID = value;
+    }
+}
 @end
