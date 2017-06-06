@@ -27,7 +27,7 @@
 //@"http://rj.guxuantang.com/app/login/login.html?mobile=15021073237&password=123456&device_type=1&type=json"
 
 - (void)createUI{
-    WYLoginView * loginView = [[WYLoginView alloc] initWithFrame:self.view.bounds];
+    WYLoginView * loginView = [[WYLoginView alloc] initWithFrame:self.view.bounds]; 
     [self.view addSubview:loginView];
 }
 - (void)didReceiveMemoryWarning {
