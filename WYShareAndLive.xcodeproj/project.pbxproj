@@ -24,6 +24,7 @@
 		FF2D52EF1EA5B3BD00AAD26D /* WYContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2D52EE1EA5B3BD00AAD26D /* WYContentScrollView.m */; };
 		FF6F68991EDE756F0089652B /* WYNewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6F68981EDE756F0089652B /* WYNewsTableViewController.m */; };
 		FF6F689C1EDE75C50089652B /* WYChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6F689B1EDE75C50089652B /* WYChannelViewController.m */; };
+		FFC3EF6B1EE65B3A00249CA7 /* WYLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC3EF6A1EE65B3A00249CA7 /* WYLoginView.m */; };
 		FFCC5F811ED68DF500EE2718 /* banner1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFCC5F7B1ED68DF500EE2718 /* banner1.jpeg */; };
 		FFCC5F821ED68DF500EE2718 /* banner2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFCC5F7C1ED68DF500EE2718 /* banner2.jpeg */; };
 		FFCC5F831ED68DF500EE2718 /* banner3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFCC5F7D1ED68DF500EE2718 /* banner3.jpeg */; };
@@ -105,6 +106,8 @@
 		FF6F68981EDE756F0089652B /* WYNewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNewsTableViewController.m; sourceTree = "<group>"; };
 		FF6F689A1EDE75C50089652B /* WYChannelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYChannelViewController.h; sourceTree = "<group>"; };
 		FF6F689B1EDE75C50089652B /* WYChannelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYChannelViewController.m; sourceTree = "<group>"; };
+		FFC3EF691EE65B3A00249CA7 /* WYLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLoginView.h; sourceTree = "<group>"; };
+		FFC3EF6A1EE65B3A00249CA7 /* WYLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLoginView.m; sourceTree = "<group>"; };
 		FFCC5F7B1ED68DF500EE2718 /* banner1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner1.jpeg; sourceTree = "<group>"; };
 		FFCC5F7C1ED68DF500EE2718 /* banner2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner2.jpeg; sourceTree = "<group>"; };
 		FFCC5F7D1ED68DF500EE2718 /* banner3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner3.jpeg; sourceTree = "<group>"; };
@@ -418,6 +421,8 @@
 		FFEBA2D41ECAD94700BAF8EF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FFC3EF691EE65B3A00249CA7 /* WYLoginView.h */,
+				FFC3EF6A1EE65B3A00249CA7 /* WYLoginView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -672,6 +677,7 @@
 				FFE567681EDE95C80065794A /* WYContainerViewController.m in Sources */,
 				FF2D52EF1EA5B3BD00AAD26D /* WYContentScrollView.m in Sources */,
 				FFF686741EAF3B59002AE032 /* FMDatabase.m in Sources */,
+				FFC3EF6B1EE65B3A00249CA7 /* WYLoginView.m in Sources */,
 				FF2D52621E9F179400AAD26D /* AppDelegate.m in Sources */,
 				FFF686821EB8300B002AE032 /* WYBaseTableViewController.m in Sources */,
 				FF2D52D11EA4478B00AAD26D /* WYHomeViewController.m in Sources */,

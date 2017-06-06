@@ -8,6 +8,7 @@
 
 #import "WYLoginViewController.h"
 #import "WYNetWorkTask.h"
+#import "WYLoginView.h"
 @interface WYLoginViewController ()
 
 
@@ -18,12 +19,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self createUI];
+    self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"登陆";
     // Do any additional setup after loading the view from its nib.
 }
 //@"http://rj.guxuantang.com/app/login/login.html?mobile=15021073237&password=123456&device_type=1&type=json"
 
-
+- (void)createUI{
+    WYLoginView * loginView = [[WYLoginView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:loginView];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
