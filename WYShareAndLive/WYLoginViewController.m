@@ -10,8 +10,7 @@
 #import "WYNetWorkTask.h"
 @interface WYLoginViewController ()
 
-@property (weak, nonatomic) IBOutlet UITextField *userNameTF;
-@property (weak, nonatomic) IBOutlet UITextField *passWordTF;
+
 
 @end
 
@@ -23,20 +22,7 @@
     // Do any additional setup after loading the view from its nib.
 }
 //@"http://rj.guxuantang.com/app/login/login.html?mobile=15021073237&password=123456&device_type=1&type=json"
-- (IBAction)clickToLogin:(id)sender {
-    NSDictionary *params = @{@"mobile":self.userNameTF.text,@"password":self.passWordTF.text,@"device_type":@1,@"type":@"json"
-                             };
-    
-    
-  [WYNetWorkTask getWithURL:WYLOGININTERFACE withParameter:params withHttpHeader:nil withResponseType:ResponseTypeJSON withSuccess:^(id result) {
-      NSLog(@"result == %@",result);
-      [SVProgressHUD showSuccessWithStatus:@"登陆成功"];
-      
-  } withFail:^(NSError *error) {
-      NSLog(@"error ==%@",error);
-      [SVProgressHUD showErrorWithStatus:@"登陆失败"];
-  }];
-}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
