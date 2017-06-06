@@ -37,7 +37,6 @@
 		FFE567721EDFE93D0065794A /* WYOneBigImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE567711EDFE93D0065794A /* WYOneBigImageTableViewCell.m */; };
 		FFEBA2D11ECAD10800BAF8EF /* 02-欢迎页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFEBA2D01ECAD10800BAF8EF /* 02-欢迎页.jpg */; };
 		FFEBA2DC1ECAE1E900BAF8EF /* WYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEBA2DA1ECAE1E900BAF8EF /* WYLoginViewController.m */; };
-		FFEBA2DD1ECAE1E900BAF8EF /* WYLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFEBA2DB1ECAE1E900BAF8EF /* WYLoginViewController.xib */; };
 		FFEBE7391ED94FB600F5D501 /* WYNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEBE7381ED94FB600F5D501 /* WYNewsModel.m */; };
 		FFF686201EADA2C2002AE032 /* WYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6861F1EADA2C2002AE032 /* WYTabBarViewController.m */; };
 		FFF686741EAF3B59002AE032 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF6866A1EAF3B59002AE032 /* FMDatabase.m */; };
@@ -123,7 +122,6 @@
 		FFEBA2D01ECAD10800BAF8EF /* 02-欢迎页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02-欢迎页.jpg"; sourceTree = "<group>"; };
 		FFEBA2D91ECAE1E900BAF8EF /* WYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLoginViewController.h; sourceTree = "<group>"; };
 		FFEBA2DA1ECAE1E900BAF8EF /* WYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLoginViewController.m; sourceTree = "<group>"; };
-		FFEBA2DB1ECAE1E900BAF8EF /* WYLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYLoginViewController.xib; sourceTree = "<group>"; };
 		FFEBE7371ED94FB600F5D501 /* WYNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYNewsModel.h; sourceTree = SOURCE_ROOT; };
 		FFEBE7381ED94FB600F5D501 /* WYNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYNewsModel.m; sourceTree = SOURCE_ROOT; };
 		FFF6861E1EADA2C2002AE032 /* WYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTabBarViewController.h; sourceTree = "<group>"; };
@@ -413,7 +411,6 @@
 			children = (
 				FFEBA2D91ECAE1E900BAF8EF /* WYLoginViewController.h */,
 				FFEBA2DA1ECAE1E900BAF8EF /* WYLoginViewController.m */,
-				FFEBA2DB1ECAE1E900BAF8EF /* WYLoginViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -591,7 +588,6 @@
 				FFCC5F841ED68DF500EE2718 /* banner4.jpeg in Resources */,
 				FF2D526D1E9F179400AAD26D /* LaunchScreen.storyboard in Resources */,
 				FFCC5F861ED68DF500EE2718 /* timg副本.jpeg in Resources */,
-				FFEBA2DD1ECAE1E900BAF8EF /* WYLoginViewController.xib in Resources */,
 				FF2D526A1E9F179400AAD26D /* Assets.xcassets in Resources */,
 				FFE5676C1EDE9BF10065794A /* NewsURLs.plist in Resources */,
 				FFCC5F821ED68DF500EE2718 /* banner2.jpeg in Resources */,
